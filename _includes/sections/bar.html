@@ -1,0 +1,33 @@
+<div class="container">
+  <center>
+    <h1>"{{ site.data.index.bar.title }}"</h1>
+  </center>
+  <center>
+    <canvas id="bar-chart" width="600" height="400"></canvas>
+    <script>
+      new Chart(document.getElementById("bar-chart"), {
+      type: 'bar',
+      data: {
+        labels: "{{ site.data.index.bar.labels }}".split(","),
+        datasets: [
+          {
+            label: "Population (millions)",
+            backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+            data: "{{site.data.index.bar.values }}".split(",")
+
+          }
+        ]
+      },
+      options: {
+        legend: { display: false },
+        title: {
+          display: true,
+          text: 'Predicted world population (millions) in 2050'
+        }
+      }
+  });
+
+
+    </script>
+  </center>
+</div>
