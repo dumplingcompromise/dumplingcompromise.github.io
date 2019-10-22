@@ -4,6 +4,6 @@ colors: ["#F7464A", "#46BFBD", "#FDB45C", "#FEDCBA",
     "#ABCDEF", "#DDDDDD", "#ABCABC", "#4169E1",
     "#C71585", "#FF4500", "#FEDCBA", "#46BFBD"]
 
-title: 'Bitcoin Monthly Price in USD'
+title: 'Building Custom Charts Using Charts.js'
 
 max: 17000

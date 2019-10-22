@@ -1,22 +1,16 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Jalpc
+- name: nikitagold.com
   i18n: jalpc
-  gh_user: jarrekk
-  repo: Jalpc
-  img: /static/assets/img/landing/jekyll.png
-  desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
+  gh_user: dumplingcompromise
+  repo: dumplingcompromise.github.io
+  img: /static/assets/img/landing/avatar.jpg
+  desc: This goal of this site is to be a showcase of my skills and interests. You can find the repo and code on github.
 
-- name: Python
+- name: Modelling customer churn using SKlearn
   i18n: cpython
-  gh_user: python
-  repo: cpython
-  img: /static/assets/img/landing/python.png
-  desc: This project is other's project. I use another request to get repo's information.
-
-- name: Google
-  i18n: google
-  url: https://google.com
-  img: /static/assets/img/landing/google.png
-  desc: This is another project.
+  gh_user: dumplingcompromise
+  repo: ml_churn
+  img: /static/assets/img/landing/sklearn.png
+  desc: A small technical exercise that showcases ML and presentation skills.
