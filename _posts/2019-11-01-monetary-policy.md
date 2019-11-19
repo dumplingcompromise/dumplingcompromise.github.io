@@ -47,6 +47,3 @@ The global integration of our economies and with the US positioned as the primar
 As of 2019, the Fed holds ~11% of all US debt via Treasuries.
 
 {% include /charts/cb_assets.html %}
-
-
-{% include /charts/world_problems.html %}

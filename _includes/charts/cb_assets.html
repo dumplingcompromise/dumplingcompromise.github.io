@@ -1,26 +1,52 @@
 <div class="container">
-
-<canvas id="chart" width="500" height="300"></canvas>
+  <center>
+<canvas id="chart" width="600" height="400"></canvas>
   <script>
 
-    d3.csv('https://ngoldovsky.s3.amazonaws.com/jsvizdata.csv').then(makeChart);
+    d3.csv('/static/assets/csvs/cb_assets.csv').then(makeChart);
 
-    function makeChart(players) {
-    var playerLabels = players.map(function(d) {return d.Name});
-    var weeksData = players.map(function(d) {return d.JPNASSETS});
-
+    function makeChart(cbdata) {
+    var year_month = cbdata.map(function(d) {return d.year_month});
+    var assetcat = cbdata.map(function(d) {return d.JPNASSETS_USD});
+    var assetcat2 = cbdata.map(function(d) {return d.ECBASSETS_USD});
+    var assetcat3 = cbdata.map(function(d) {return d.FEDASSETS});
     var chart = new Chart('chart', {
-      type: 'horizontalBar',
+      type: 'line',
       data: {
-        labels: playerLabels,
+        labels: year_month,
         datasets: [
           {
-            data: weeksData
+            data: assetcat,
+            label: "JAPAN CB Assets",
+            borderColor: "#3e95cd",
+            fill: false
+          }
+          ,
+          {
+            data: assetcat2,
+            label: "ECB Assets",
+            borderColor: "#8e5ea2",
+            fill: false
+          }
+          ,
+          {
+            data: assetcat3,
+            label: "FED Assets",
+            borderColor: "#3cba9f",
+            fill: false
           }
         ]
-      }
+      },
+      options: {
+        title: {
+      display: true,
+      text: 'Assets by Month of Major Central Banks'
+    },
+      responsive: false,
+      maintainAspectRatio: false
+    }
     });
   }
   </script>
-
+  <center>
 </div>
