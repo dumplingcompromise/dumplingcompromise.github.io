@@ -63,6 +63,15 @@ This is not a bad approach because banks generally take a prudent approach to ci
 However, when central banks create artificial demand for government debt through repurchases from private banks, they end up distorting the perceived level of risk. By buying government debt, centrla banks transfer risk from banks to taxpayers. While interest rates are decreasing, this works well because the central bank can show a profit on their purchase and be heralded as returning money to taxpayers. However, if interest rates were to increase  
 
 
+******
+
+problems with lower interest rates:
+---Keeps bad companies alive
+--encourages govt spending
+--decreases flows into bonds which need to be made up by someone.
+
+
+
 
 
 
