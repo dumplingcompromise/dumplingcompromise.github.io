@@ -40,10 +40,33 @@ rise in reserve balances as inflationary or if the Fed were viewed as accommodat
 expansion by “monetizing the debt”."](https://www.federalreserve.gov/pubs/feds/2010/201052/201052pap.pdf)
 But the move did work, and I would argue for a couple of reasons: 1) The strategy of buying Treasury and MBS assets was seen as the most efficient way of intervening in the market to achieve stabilizing effects. 2) Other central banks were doing the same thing.
 
-The global integration of our economies and with the US positioned as the primary consumer market, meant that when the US housing market and key financial institutions started collapsing, the entire global economy would be impacted.
+The second point is what I would like to examine further.
 
-
-
-As of 2019, the Fed holds ~11% of all US debt via Treasuries.
+As shown in the chart below, the Fed's asset buying program was on par with what the ECB was doing and matched the trajectory of Japan's own QE program. In other words, the world's main economies were purchasing their own debt in order to keep their respective financial systems solvent and asset pricing increasing.
 
 {% include /charts/cb_assets.html %}
+
+So what's the problem? We've seen slow but steady growth and rising retirement funds. There's been no runaway inflation and until we start surpassing our inflation targets, shouldn't we keep stimulating our economy further?
+
+That's an understandable argument, but if we examine the KIND of growth that is acheived through monetary stimulus I believe some warning signs emerge.
+
+What kind of warning signs?
+
+To understand the warning signs, we have to think about about what happens during recession and what the Central Bank is doing when it intervenes.
+
+Recessions can come in different flavors, but a common situation is when consumer demand growth is exhausted and companies cannot continue to grow their earnings. This in turn leads to job cuts, asset price declines, and bankruptcies. It's an unpleasant situation for most participants, but it is a positive for savers. Savers "enjoy" recessions through increased purchasing power, and ability to deploy their capital towards more sustainable business models. Recessions are also favorable to strong companies, who find themselves with less competition and with more influence on price-setting and expansion. Theoretically, a small recession could actually be healthy in that it shakes out moral hazard and bad business practices.
+
+However, when central banks intervene in order to prevent recession, they do so at the expense of savers. Because of the mechanics of how QE works, the biggest benificiaries of this process are banks. Banks have been ordained by central banks as being the gatekeepers of how money is distributed in society since they are the direct recipients of monetary stimulus.
+
+This is not a bad approach because banks generally take a prudent approach to circulating money. They do things like credit checks, business model evaluations, and have large compliance and regulation teams that act as stewards of a society's means of transaction. On the whole, I can see how this is more productive than crediting everyone $500 for a new TV.
+
+However, when central banks create artificial demand for government debt through repurchases from private banks, they end up distorting the perceived level of risk. By buying government debt, centrla banks transfer risk from banks to taxpayers. While interest rates are decreasing, this works well because the central bank can show a profit on their purchase and be heralded as returning money to taxpayers. However, if interest rates were to increase  
+
+
+
+
+
+{% include /charts/asset_allocation.html %}
+Data via [aaii.com/assetallocationsurvey](https://www.aaii.com/assetallocationsurvey)
+
+As of 2019, the Fed holds ~11% of all US debt via Treasuries.

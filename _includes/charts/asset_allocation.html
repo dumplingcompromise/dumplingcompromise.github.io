@@ -1,0 +1,52 @@
+<div class="container2">
+  <center>
+<canvas id="chart2" width="600" height="400"></canvas>
+  <script>
+
+    d3.csv('/static/assets/csvs/asset_alloc.csv').then(makeChart2);
+
+    function makeChart2(assdata) {
+    var year_and_month = assdata.map(function(d) {return d.Month});
+    var stocks = assdata.map(function(d) {return d.Stocks});
+    var bonds = assdata.map(function(d) {return d.Bonds});
+    var cash = assdata.map(function(d) {return d.Cash});
+    var chart2 = new Chart('chart2', {
+      type: 'line',
+      data: {
+        labels: year_and_month,
+        datasets: [
+          {
+            data: stocks,
+            label: "Stocks",
+            borderColor: "#3e95cd",
+            fill: false
+          }
+          ,
+          {
+            data: bonds,
+            label: "Bonds",
+            borderColor: "#8e5ea2",
+            fill: false
+          }
+          ,
+          {
+            data: cash,
+            label: "Cash",
+            borderColor: "#3cba9f",
+            fill: false
+          }
+        ]
+      },
+      options: {
+        title: {
+      display: true,
+      text: 'Asset Allocation by Asset Class'
+    },
+      responsive: false,
+      maintainAspectRatio: false
+    }
+    });
+  }
+  </script>
+  </center>
+</div>
