@@ -187,6 +187,11 @@ for index, row in players_df.iterrows():
 ##Custom cheating code
 matcher.add('LAST', None, [{'TEXT': 'lebron'}])
 matcher.add('LAST', None, [{'TEXT': 'oubre'}])
+matcher.add('LAST', None, [{'TEXT': 'giannis'}])
+matcher.add('LAST', None, [{'TEXT': 'kawhi'}])
+matcher.add('LAST', None, [{'TEXT': 'kyrie'}])
+matcher.add('LAST', None, [{'TEXT': 'kemba'}])
+matcher.add('LAST', None, [{'TEXT': 'luka'}])
 
 def players_found(val):
     player_token_list = []
