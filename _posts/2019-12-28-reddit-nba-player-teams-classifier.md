@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Classifying Reddit NBA Posts
+title:  "Classifying Reddit NBA Posts"
 date:   2019-12-28
 desc: "Working with the reddit and NBA.com APIs to classify reddit/r/nba posts by team."
 keywords: "reddit, NBA, APIs"
