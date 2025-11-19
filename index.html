@@ -1,68 +1,89 @@
----
-layout: blog
-title: index
-permalink: /
----
-
-<div class="navbar-wrapper">
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikita Goldovsky</title>
+    <meta name="description" content="Nikita Goldovsky - Software Engineer & Technology Professional">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
     <div class="container">
-      <div class="navbar-header page-scroll">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#page-top" id="i18_title"><span data-i18n="website.title">{{ site.title }}</span></a>
-      </div>
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right" id="i18_navbar">
-          {% for section in site.data.landing %}
-          <li>
-            {% if section.page %}
-              <a class="page-scroll" href="{{ section.page}} ">
-            {% else %}
-              <a class="page-scroll" href="{{ section.id | prepend: '#'}} ">
-            {% endif %}
-              <span data-i18n="{{ section.i18n }}">{{ section.name }}</span>
-            </a>
-          </li>
-          {% endfor %}
-          {% for language in site.data.index.language %}
-          <li>
-            <a id="set_lang_{{ language.locale }}" class="btn btn-sm set_{{ language.locale }}" data-locale="{{ language.locale }}">
-              <img src="{{ language.flag | prepend: site.baseurl }}" height="16" width="16">
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-  </nav>
-</div>
-{% if site.index_carousel %}
-{% include carousel.html %}
-{% endif %}
+        <aside class="left-sidebar">
+            <div class="profile-section">
+                <img src="assets/img/green hs.png" alt="Nikita Goldovsky" class="profile-pic">
+                <h1 class="name">Nikita Goldovsky</h1>
+                <p class="tagline">Software Engineer & Technology Professional</p>
+            </div>
+        </aside>
 
-{% for section in site.data.landing %}
-{% assign loopindex = forloop.index | modulo: 2 %}
-<section id="{{ section.id }}" class="features {% if loopindex != 1 %} gray-section {% endif %} {{ section.css }}" style="margin-top: 0;">
-  {% include sections/{{section.tpl}} %}
-</section>
-{% endfor %}
-<style>
-iframe {
-  -moz-transform: scale(0.25, 0.25);
-  -webkit-transform: scale(0.25, 0.25);
-  -o-transform: scale(0.25, 0.25);
-  -ms-transform: scale(0.25, 0.25);
-  transform: scale(0.25, 0.25);
-  -moz-transform-origin: top left;
-  -webkit-transform-origin: top left;
-  -o-transform-origin: top left;
-  -ms-transform-origin: top left;
-  transform-origin: top left;
-}
-</style>
-<!-- <iframe src="https://www.maimemo.com/share/page/?uid=779139&pid=660" style="display: none;"></iframe> -->
+        <main class="main-content">
+            <section class="bio-section">
+                <p>Hi, I'm Nikita. I like to tinker with things and build solutions that solve real problems. I specialize in cloud infrastructure, automation, and scalable systems.</p>
+                <p>Currently focused on distributed systems, infrastructure as code, and developer tooling. Always learning, always building.</p>
+            </section>
+
+            <section class="interests-section">
+                <h2>Current Interests</h2>
+                <ul class="interests-list">
+                    <li>Cloud Architecture (AWS, Azure, GCP)</li>
+                    <li>Infrastructure as Code (Terraform, CloudFormation)</li>
+                    <li>Container Orchestration (Kubernetes, Docker)</li>
+                    <li>Serverless Computing</li>
+                    <li>DevOps & CI/CD Pipelines</li>
+                    <li>Financial Technology & APIs</li>
+                    <li>Data Engineering</li>
+                </ul>
+            </section>
+
+            <section class="work-section">
+                <h2>Clients & Employers</h2>
+                <ul class="work-list">
+                    <li><a href="#" target="_blank" rel="noopener noreferrer">TechyTech LLC</a></li>
+                    <li><a href="https://www.asurion.com" target="_blank" rel="noopener noreferrer">Asurion</a></li>
+                    <li><a href="https://www.cvent.com" target="_blank" rel="noopener noreferrer">Cvent</a></li>
+                    <li><a href="" target="_blank" rel="noopener noreferrer">Direct Holdings</a></li>
+                    <li><a href="https://www.investingdaily.com" target="_blank" rel="noopener noreferrer">Investing Daily</a></li>
+                </ul>
+            </section>
+
+            <section class="projects-section">
+                <h2>Projects</h2>
+                <ul class="projects-list">
+                    <li>
+                        <a href="https://apps.apple.com/us/app/nudge-screen-time-manager/id6550918174" target="_blank" rel="noopener noreferrer">
+                            <span class="project-name">Nudge Screen Time</span>
+                            <span class="project-desc">A mobile app to help kids build better digital habits.</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://whenonearth.net/" target="_blank" rel="noopener noreferrer">
+                            <span class="project-name">When on Earth</span>
+                            <span class="project-desc">Viral travel blog highlighting the world's most interesting places.</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://eigenplex.com/" target="_blank" rel="noopener noreferrer">
+                            <span class="project-name">Eigenplex</span>
+                            <span class="project-desc">AI-native ERP solution focused on the restaurant and servicess industry.</span>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+        </main>
+
+        <aside class="sidebar">
+            <nav class="sidebar-links">
+                <a href="https://github.com/dumplingcompromise" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/nikita-goldovsky-093b149" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://nikitagoldovsky.medium.com/" target="_blank" rel="noopener noreferrer">Medium</a>
+                <a href="https://youtube.com/playlist?list=PLoB4vjHaQpnufeT3sq30xnxP3CF6qykmW&si=YRHe4WGAnwWLpgAd" target="_blank" rel="noopener noreferrer">Phone School</a>
+            </nav>
+        </aside>
+    </div>
+</body>
+</html>
