@@ -1,0 +1,35 @@
+{{ define "main" }}
+<article class="blog-post">
+    <header class="post-header">
+        <a href="/blog/" class="back-link">&larr; Back to Blog</a>
+        <h1 class="post-title">{{ .Title }}</h1>
+        <div class="post-meta">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+            {{ with .Params.tags }}
+            <span class="post-tags">
+                {{ range . }}
+                <span class="tag">{{ . }}</span>
+                {{ end }}
+            </span>
+            {{ end }}
+        </div>
+    </header>
+
+    <div class="post-content">
+        {{ .Content }}
+    </div>
+</article>
+{{ end }}
+
+{{ define "scripts" }}
+{{ if .Params.chart_data }}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const chartData = {{ .Params.chart_data | jsonify }};
+    if (typeof initCharts === 'function') {
+        initCharts(chartData);
+    }
+});
+</script>
+{{ end }}
+{{ end }}

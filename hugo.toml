@@ -1,0 +1,12 @@
+baseURL = "https://nikitagold.com/"
+languageCode = "en-us"
+title = "Nikita Goldovsky"
+
+[params]
+  description = "Software Engineer & Technology Professional"
+  tagline = "data | product | marketing | strategy"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Allow raw HTML in markdown (needed for chart canvases)

@@ -1,7 +1,15 @@
-_site
-.sass-cache
-.jekyll-metadata
-.idea
+# Hugo
+public/
+resources/
+.hugo_build.lock
+
+# OS
 .DS_Store
+
+# Editor
+.idea
+.vscode
+
+# Dependencies
 node_modules
 npm-debug.log

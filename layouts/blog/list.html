@@ -1,0 +1,33 @@
+{{ define "main" }}
+<section class="blog-index">
+    <h1 class="page-title">Blog</h1>
+    <p class="page-intro">Thoughts on data, technology, and building products.</p>
+
+    <div class="posts-list">
+        {{ range .Pages }}
+        <article class="post-preview">
+            <a href="{{ .Permalink }}" class="post-link">
+                <h2 class="post-preview-title">{{ .Title }}</h2>
+                <time class="post-preview-date" datetime="{{ .Date.Format "2006-01-02" }}">
+                    {{ .Date.Format "January 2, 2006" }}
+                </time>
+                {{ if .Summary }}
+                <p class="post-preview-excerpt">{{ .Summary | truncate 160 }}</p>
+                {{ end }}
+                {{ with .Params.tags }}
+                <div class="post-preview-tags">
+                    {{ range . }}
+                    <span class="tag">{{ . }}</span>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </a>
+        </article>
+        {{ end }}
+    </div>
+
+    {{ if eq (len .Pages) 0 }}
+    <p class="no-posts">No posts yet. Check back soon!</p>
+    {{ end }}
+</section>
+{{ end }}
