@@ -11,7 +11,14 @@ const chartDefaults = {
         background: '#222222',
         text: '#ebebea',
         textSecondary: '#a8a8a8',
-        gridLines: 'rgba(168, 168, 168, 0.2)'
+        gridLines: 'rgba(168, 168, 168, 0.2)',
+        // Sentiment colors
+        positive: '#2ecc71',
+        positiveHover: '#27ae60',
+        neutral: '#3498db',
+        neutralHover: '#2980b9',
+        negative: '#e74c3c',
+        negativeHover: '#c0392b'
     }
 };
 
@@ -138,4 +145,174 @@ function createStandaloneChart(canvasId, config) {
     if (canvas) {
         createChart(canvas, Object.assign({ id: canvasId }, config));
     }
+}
+
+/**
+ * Initialize Brand Sentiment Chart
+ * @param {string} canvasId - Canvas element ID
+ * @param {string} tableId - Table container element ID
+ * @param {string} dataUrl - URL to preprocessed JSON data
+ */
+async function initBrandSentimentChart(canvasId, tableId, dataUrl) {
+    const canvas = document.getElementById(canvasId);
+    const tableContainer = document.getElementById(tableId);
+
+    if (!canvas) {
+        console.warn('Brand sentiment chart canvas not found:', canvasId);
+        return;
+    }
+
+    try {
+        const response = await fetch(dataUrl);
+        const data = await response.json();
+        createBrandSentimentChart(canvas, tableContainer, data);
+    } catch (error) {
+        console.error('Error loading brand sentiment data:', error);
+    }
+}
+
+/**
+ * Create the stacked horizontal bar chart for brand sentiments
+ */
+function createBrandSentimentChart(canvas, tableContainer, data) {
+    const ctx = canvas.getContext('2d');
+    const brands = data.brands;
+    const mentions = data.mentions;
+
+    const chartData = {
+        labels: brands.map(function(b) { return b.name; }),
+        datasets: [
+            {
+                label: 'Positive',
+                data: brands.map(function(b) { return b.positive; }),
+                backgroundColor: chartDefaults.colors.positive,
+                hoverBackgroundColor: chartDefaults.colors.positiveHover
+            },
+            {
+                label: 'Neutral',
+                data: brands.map(function(b) { return b.neutral; }),
+                backgroundColor: chartDefaults.colors.neutral,
+                hoverBackgroundColor: chartDefaults.colors.neutralHover
+            },
+            {
+                label: 'Negative',
+                data: brands.map(function(b) { return b.negative; }),
+                backgroundColor: chartDefaults.colors.negative,
+                hoverBackgroundColor: chartDefaults.colors.negativeHover
+            }
+        ]
+    };
+
+    const chart = new Chart(ctx, {
+        type: 'bar',
+        data: chartData,
+        options: {
+            indexAxis: 'y',
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    position: 'top',
+                    labels: {
+                        color: chartDefaults.colors.text,
+                        font: { family: "'Roboto Mono', monospace" }
+                    }
+                },
+                tooltip: {
+                    backgroundColor: chartDefaults.colors.background,
+                    titleColor: chartDefaults.colors.primary,
+                    bodyColor: chartDefaults.colors.text,
+                    borderColor: chartDefaults.colors.primary,
+                    borderWidth: 1,
+                    callbacks: {
+                        label: function(context) {
+                            return context.dataset.label + ': ' + context.raw + ' mentions';
+                        }
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    stacked: true,
+                    ticks: { color: chartDefaults.colors.textSecondary },
+                    grid: { color: chartDefaults.colors.gridLines },
+                    title: {
+                        display: true,
+                        text: 'Number of Mentions',
+                        color: chartDefaults.colors.textSecondary
+                    }
+                },
+                y: {
+                    stacked: true,
+                    ticks: { color: chartDefaults.colors.textSecondary },
+                    grid: { color: chartDefaults.colors.gridLines }
+                }
+            },
+            onClick: function(event, elements) {
+                if (elements.length > 0) {
+                    const element = elements[0];
+                    const brandIndex = element.index;
+                    const datasetIndex = element.datasetIndex;
+
+                    const brandName = brands[brandIndex].name;
+                    const sentiments = ['positive', 'neutral', 'negative'];
+                    const sentiment = sentiments[datasetIndex];
+
+                    filterAndDisplayMentions(tableContainer, mentions, brandName, sentiment);
+                }
+            }
+        }
+    });
+
+    // Store references
+    canvas._brandChart = chart;
+    canvas._brandData = data;
+}
+
+/**
+ * Filter mentions and display in table
+ */
+function filterAndDisplayMentions(tableContainer, mentions, brandName, sentiment) {
+    if (!tableContainer) return;
+
+    const filtered = mentions.filter(function(m) {
+        return m.brand === brandName && m.sentiment === sentiment;
+    });
+
+    // Update header
+    const headerEl = tableContainer.querySelector('.filter-header');
+    if (headerEl) {
+        headerEl.textContent = brandName + ' - ' + sentiment + ' mentions (' + filtered.length + ')';
+        headerEl.className = 'filter-header sentiment-' + sentiment;
+    }
+
+    // Update table body
+    const tbody = tableContainer.querySelector('tbody');
+    if (!tbody) return;
+
+    if (filtered.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="3" class="no-results">No mentions found for this selection</td></tr>';
+        return;
+    }
+
+    tbody.innerHTML = filtered.map(function(mention) {
+        return '<tr>' +
+            '<td class="mention-context">' + escapeHtml(mention.context || '-') + '</td>' +
+            '<td class="mention-text">' + escapeHtml(mention.text) + '</td>' +
+            '<td class="mention-source"><span class="source-badge source-' + mention.source + '">' + mention.source + '</span></td>' +
+            '</tr>';
+    }).join('');
+
+    // Scroll table into view
+    tableContainer.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+
+/**
+ * Escape HTML to prevent XSS
+ */
+function escapeHtml(text) {
+    if (!text) return '';
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
 }

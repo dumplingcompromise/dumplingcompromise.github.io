@@ -92,6 +92,50 @@ Chart.js supports many chart types out of the box:
 - **Polar Area** - similar to pie with equal angles
 - **Scatter** - correlation between variables
 
+## Interactive Brand Sentiment Analysis
+
+Now let's look at a real-world example using actual data. The chart below shows brand mentions from Reddit discussions about GLP-1 medications, segmented by sentiment (positive, neutral, negative).
+
+**Click any segment** to see the actual comments where that brand was mentioned with that sentiment.
+
+<div class="chart-container brand-sentiment-container">
+    <h3 class="chart-title">Top 20 Brands by Mention Count</h3>
+    <p class="chart-caption">Data from Reddit r/Ozempic discussions</p>
+    <div class="chart-wrapper" style="height: 600px;">
+        <canvas id="brandSentimentChart"></canvas>
+    </div>
+</div>
+
+<div id="mentionsTable" class="mentions-table-container">
+    <h4 class="filter-header">Select a segment above to view mentions</h4>
+    <table class="mentions-table">
+        <thead>
+            <tr>
+                <th>Context</th>
+                <th>Text</th>
+                <th>Source</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="3" class="no-results">Click a chart segment to filter mentions</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    initBrandSentimentChart(
+        'brandSentimentChart',
+        'mentionsTable',
+        '/data/brand-sentiment-data.json'
+    );
+});
+</script>
+
+This interactive visualization demonstrates how to combine Chart.js click handlers with dynamic DOM updates to create explorable data presentations.
+
 ## Next Steps
 
-In future posts, I'll explore more advanced visualizations and show how to work with real datasets. Stay tuned!
+Feel free to explore the chart above by clicking different sentiment segments. The data processing pipeline extracts brand mentions from Reddit posts and comments, classifies sentiment, and aggregates the results for visualization.

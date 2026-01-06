@@ -725,3 +725,129 @@ ul {
         padding: 1rem;
     }
 }
+
+/* Brand Sentiment Chart Styles */
+.brand-sentiment-container .chart-wrapper {
+    min-height: 500px;
+    max-height: 700px;
+}
+
+/* Mentions Table */
+.mentions-table-container {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.02);
+    border-radius: 8px;
+    border: 1px solid rgba(168, 168, 168, 0.15);
+}
+
+.filter-header {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    background-color: rgba(168, 168, 168, 0.1);
+}
+
+.filter-header.sentiment-positive {
+    border-left: 4px solid #2ecc71;
+}
+
+.filter-header.sentiment-neutral {
+    border-left: 4px solid #3498db;
+}
+
+.filter-header.sentiment-negative {
+    border-left: 4px solid #e74c3c;
+}
+
+.mentions-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+
+.mentions-table th {
+    text-align: left;
+    padding: 0.75rem;
+    border-bottom: 2px solid var(--accent);
+    color: var(--accent);
+    font-weight: 600;
+}
+
+.mentions-table td {
+    padding: 0.75rem;
+    border-bottom: 1px solid rgba(168, 168, 168, 0.15);
+    vertical-align: top;
+}
+
+.mentions-table tr:hover {
+    background-color: rgba(252, 205, 3, 0.05);
+}
+
+.mention-context {
+    width: 25%;
+    font-style: italic;
+    color: var(--text-secondary);
+}
+
+.mention-text {
+    width: 60%;
+    line-height: 1.5;
+}
+
+.mention-source {
+    width: 15%;
+    text-align: center;
+}
+
+.source-badge {
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.source-post {
+    background-color: rgba(252, 205, 3, 0.2);
+    color: var(--accent);
+}
+
+.source-comment {
+    background-color: rgba(52, 152, 219, 0.2);
+    color: #3498db;
+}
+
+.no-results {
+    text-align: center;
+    color: var(--text-secondary);
+    font-style: italic;
+    padding: 2rem !important;
+}
+
+/* Responsive Mentions Table */
+@media (max-width: 768px) {
+    .mentions-table {
+        font-size: 0.85rem;
+    }
+
+    .mentions-table th,
+    .mentions-table td {
+        padding: 0.5rem;
+    }
+
+    .mention-context {
+        display: none;
+    }
+
+    .mention-text {
+        width: 80%;
+    }
+
+    .brand-sentiment-container .chart-wrapper {
+        min-height: 400px;
+    }
+}

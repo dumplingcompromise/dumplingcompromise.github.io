@@ -1,0 +1,1927 @@
+{
+  "summary": {
+    "totalMentions": 448,
+    "displayedMentions": 177,
+    "uniqueBrands": 227,
+    "displayedBrands": 20,
+    "sentiments": {
+      "positive": 76,
+      "neutral": 363,
+      "negative": 9
+    }
+  },
+  "brands": [
+    {
+      "name": "Costco",
+      "positive": 5,
+      "neutral": 19,
+      "negative": 0,
+      "total": 24
+    },
+    {
+      "name": "Chipotle",
+      "positive": 0,
+      "neutral": 17,
+      "negative": 0,
+      "total": 17
+    },
+    {
+      "name": "Metamucil",
+      "positive": 9,
+      "neutral": 5,
+      "negative": 0,
+      "total": 14
+    },
+    {
+      "name": "Fairlife",
+      "positive": 4,
+      "neutral": 10,
+      "negative": 0,
+      "total": 14
+    },
+    {
+      "name": "Zofran",
+      "positive": 3,
+      "neutral": 11,
+      "negative": 0,
+      "total": 14
+    },
+    {
+      "name": "Amazon",
+      "positive": 0,
+      "neutral": 13,
+      "negative": 0,
+      "total": 13
+    },
+    {
+      "name": "Metformin",
+      "positive": 0,
+      "neutral": 10,
+      "negative": 1,
+      "total": 11
+    },
+    {
+      "name": "Restoralax",
+      "positive": 3,
+      "neutral": 6,
+      "negative": 0,
+      "total": 9
+    },
+    {
+      "name": "Walmart",
+      "positive": 0,
+      "neutral": 8,
+      "negative": 0,
+      "total": 8
+    },
+    {
+      "name": "Felix",
+      "positive": 0,
+      "neutral": 4,
+      "negative": 1,
+      "total": 5
+    },
+    {
+      "name": "MyFitnessPal",
+      "positive": 0,
+      "neutral": 5,
+      "negative": 0,
+      "total": 5
+    },
+    {
+      "name": "Premier protein",
+      "positive": 1,
+      "neutral": 4,
+      "negative": 0,
+      "total": 5
+    },
+    {
+      "name": "Imodium",
+      "positive": 0,
+      "neutral": 5,
+      "negative": 0,
+      "total": 5
+    },
+    {
+      "name": "LoseIt",
+      "positive": 1,
+      "neutral": 4,
+      "negative": 0,
+      "total": 5
+    },
+    {
+      "name": "ChatGPT",
+      "positive": 0,
+      "neutral": 5,
+      "negative": 0,
+      "total": 5
+    },
+    {
+      "name": "Kaiser",
+      "positive": 0,
+      "neutral": 5,
+      "negative": 0,
+      "total": 5
+    },
+    {
+      "name": "Protein shakes",
+      "positive": 0,
+      "neutral": 5,
+      "negative": 0,
+      "total": 5
+    },
+    {
+      "name": "MiraLAX",
+      "positive": 5,
+      "neutral": 0,
+      "negative": 0,
+      "total": 5
+    },
+    {
+      "name": "Old Navy",
+      "positive": 0,
+      "neutral": 4,
+      "negative": 0,
+      "total": 4
+    },
+    {
+      "name": "Crystal Light",
+      "positive": 0,
+      "neutral": 4,
+      "negative": 0,
+      "total": 4
+    }
+  ],
+  "mentions": [
+    {
+      "id": "m0",
+      "brand": "Costco",
+      "sentiment": "neutral",
+      "context": "mentioned as a potential refill source",
+      "text": "I missed like two weeks of not using Ozempic because of the holidays and doctor office hours. I have to book a phone appointment which can take a full day. the pharmacy always send a fax to the doctor...",
+      "source": "post",
+      "postId": "1q4zjuz",
+      "postTitle": "Any alternatives method to get Ozempic refill ? My doctor's office always busy or closed during holidays (Canada Thread)"
+    },
+    {
+      "id": "m1",
+      "brand": "Costco",
+      "sentiment": "neutral",
+      "context": "mentioned as a pharmacy option",
+      "text": "Costco is a pharmacy and can handle refills. Your doctor will still be responsible for the prescription. \n\nAsk your doc for a 90day or the max length prescription.  Ask the pharmacy to set reminders f...",
+      "source": "comment",
+      "postId": "1q4zjuz",
+      "postTitle": "Any alternatives method to get Ozempic refill ? My doctor's office always busy or closed during holidays (Canada Thread)"
+    },
+    {
+      "id": "m2",
+      "brand": "Felix",
+      "sentiment": "neutral",
+      "context": "mentioned as an online physician service",
+      "text": "Costco is a pharmacy and can handle refills. Your doctor will still be responsible for the prescription. \n\nAsk your doc for a 90day or the max length prescription.  Ask the pharmacy to set reminders f...",
+      "source": "comment",
+      "postId": "1q4zjuz",
+      "postTitle": "Any alternatives method to get Ozempic refill ? My doctor's office always busy or closed during holidays (Canada Thread)"
+    },
+    {
+      "id": "m3",
+      "brand": "Costco",
+      "sentiment": "neutral",
+      "context": "clarified as a pharmacy, not a doctor",
+      "text": "Costco is a pharmacy. Not a doctor. You\u2019d still need a doctors perception.",
+      "source": "comment",
+      "postId": "1q4zjuz",
+      "postTitle": "Any alternatives method to get Ozempic refill ? My doctor's office always busy or closed during holidays (Canada Thread)"
+    },
+    {
+      "id": "m5",
+      "brand": "Amazon",
+      "sentiment": "neutral",
+      "context": "mentioned as a source for syringes",
+      "text": "If you want to use all of the medication in the pen, you can extract it using a syringe. Get some short-needle insulin syringes from the pharmacy or Amazon, pull air into the syringe, then inject the ...",
+      "source": "comment",
+      "postId": "1q4qiyb",
+      "postTitle": "Amount in the pen, how much is left in it for sure?"
+    },
+    {
+      "id": "m6",
+      "brand": "Costco",
+      "sentiment": "neutral",
+      "context": "mentioned as a source for scrubs",
+      "text": "I lost 150lbs, as a fellow health care worker, I'll be honest, scrubs are the one thing I actually spent the money to replace regularly. But I'm super fussy about work clothes.\n\nOther than that, I liv...",
+      "source": "comment",
+      "postId": "1q4i3lz",
+      "postTitle": "Clothing..."
+    },
+    {
+      "id": "m7",
+      "brand": "Old Navy",
+      "sentiment": "neutral",
+      "context": "mentioned as a cheap clothing option",
+      "text": "I lost 150lbs, as a fellow health care worker, I'll be honest, scrubs are the one thing I actually spent the money to replace regularly. But I'm super fussy about work clothes.\n\nOther than that, I liv...",
+      "source": "comment",
+      "postId": "1q4i3lz",
+      "postTitle": "Clothing..."
+    },
+    {
+      "id": "m8",
+      "brand": "Walmart",
+      "sentiment": "neutral",
+      "context": "mentioned as a cheap clothing option",
+      "text": "I got rid of outsized clothing. Try old navy for cheap clothes they\u2019re almost always on sale.",
+      "source": "comment",
+      "postId": "1q4i3lz",
+      "postTitle": "Clothing..."
+    },
+    {
+      "id": "m10",
+      "brand": "Old Navy",
+      "sentiment": "neutral",
+      "context": "mentioned as a cheap clothing option",
+      "text": "I have gradually replaced key pieces like pants in basic colors. My tops are super baggy on me now, but I'm hanging on to my favorites and donating the rest. \n\nI get old navy clothing on sale, and som...",
+      "source": "comment",
+      "postId": "1q4i3lz",
+      "postTitle": "Clothing..."
+    },
+    {
+      "id": "m11",
+      "brand": "Walmart",
+      "sentiment": "neutral",
+      "context": "mentioned as a cheap clothing option",
+      "text": "I have gradually replaced key pieces like pants in basic colors. My tops are super baggy on me now, but I'm hanging on to my favorites and donating the rest. \n\nI get old navy clothing on sale, and som...",
+      "source": "comment",
+      "postId": "1q4i3lz",
+      "postTitle": "Clothing..."
+    },
+    {
+      "id": "m21",
+      "brand": "Amazon",
+      "sentiment": "neutral",
+      "context": "place to buy Zantac",
+      "text": "My doctor advised I take Zantac for acid reflux. It is over the counter any pharmacy or big box store including Amazon has it. It 100% cured my acid reflux. The directions say to take one every 12 hou...",
+      "source": "comment",
+      "postId": "1q4661m",
+      "postTitle": "Acid reflux"
+    },
+    {
+      "id": "m22",
+      "brand": "MyFitnessPal",
+      "sentiment": "neutral",
+      "context": "used to track weight loss",
+      "text": "I asked over three years and was put on contrave that did nothing. I barely eat as is so I guess something in my body wasn\u2019t working right. Not diabetic at all. I eat candy and my blood sugar would be...",
+      "source": "post",
+      "postId": "1q43l6q",
+      "postTitle": "My doctors said it would not work"
+    },
+    {
+      "id": "m24",
+      "brand": "Metformin",
+      "sentiment": "negative",
+      "context": "didn't help with A1C",
+      "text": "So\u2026 I have an interesting situation here.\n\nI\u2019m 50. I\u2019ve had rheumatoid arthritis since I was a teenager. Enbrel keeps it in check.\n\nI had gestational diabetes with my pregnancy, and between that and m...",
+      "source": "post",
+      "postId": "1q42mfq",
+      "postTitle": "On enbrel, starting ozempic, starting tamoxifen"
+    },
+    {
+      "id": "m26",
+      "brand": "Metamucil",
+      "sentiment": "positive",
+      "context": "stopped diarrhea",
+      "text": "Has anyone experienced sulfur burps with watery diarrhea with this med? This is 3rd month and I started to experienced watery diarrhea with sulfur burps, I had about 15-16 episodes of diarrhea yesterd...",
+      "source": "post",
+      "postId": "1q41wt3",
+      "postTitle": "Diarrhea and sulfur burps"
+    },
+    {
+      "id": "m28",
+      "brand": "MyFitnessPal",
+      "sentiment": "neutral",
+      "context": "seeking tracker suggestions",
+      "text": "Hi, I\u2019m seeking advice on starting ozempic again and hoping to benefit from some shared experience and advice. \n\nI lost 10kg from Dec \u201823 to April \u201824, started on 0.25mg, the max I got to was 0.5mg tw...",
+      "source": "post",
+      "postId": "1q3phxb",
+      "postTitle": "Ozempic vs Mirtazipine\u2026 hoping to avoid the dreaded weight gain"
+    },
+    {
+      "id": "m38",
+      "brand": "Fairlife",
+      "sentiment": "neutral",
+      "context": "mentioning protein shake brand",
+      "text": "I was on Ozempic for around 13 months.  I had already lost 100 lbs on a low-carb/ keto diet. My blood sugars were still high, so my Dr gave me a prescription.  \n  \n  I hadn't read all the side effects...",
+      "source": "comment",
+      "postId": "1q2uzwr",
+      "postTitle": "Coming off Ozempic/weight gain?"
+    },
+    {
+      "id": "m39",
+      "brand": "Premier protein",
+      "sentiment": "neutral",
+      "context": "mentioning protein shake brand",
+      "text": "I was on Ozempic for around 13 months.  I had already lost 100 lbs on a low-carb/ keto diet. My blood sugars were still high, so my Dr gave me a prescription.  \n  \n  I hadn't read all the side effects...",
+      "source": "comment",
+      "postId": "1q2uzwr",
+      "postTitle": "Coming off Ozempic/weight gain?"
+    },
+    {
+      "id": "m40",
+      "brand": "Restoralax",
+      "sentiment": "neutral",
+      "context": "mentioning laxative",
+      "text": "Hi everyone, I\u2019ve been on Ozempic for a number of months. Started on .25, then .5 and then .75 for a couple of weeks. My main issue was diarrhea but in the last month I\u2019ve had awful bloating and a con...",
+      "source": "post",
+      "postId": "1q2s290",
+      "postTitle": "Sudden continuous bloating and constipation"
+    },
+    {
+      "id": "m41",
+      "brand": "Imodium",
+      "sentiment": "neutral",
+      "context": "mentioning medication",
+      "text": "Hi everyone, I\u2019ve been on Ozempic for a number of months. Started on .25, then .5 and then .75 for a couple of weeks. My main issue was diarrhea but in the last month I\u2019ve had awful bloating and a con...",
+      "source": "post",
+      "postId": "1q2s290",
+      "postTitle": "Sudden continuous bloating and constipation"
+    },
+    {
+      "id": "m43",
+      "brand": "Fairlife",
+      "sentiment": "neutral",
+      "context": "mentioning protein shake brand",
+      "text": "This is a general comment for first-time users/starters or people looking for advice \ud83d\ude0a, I hope it helps! (Sometimes I add it too for people looking for specific information that I don't want to type o...",
+      "source": "comment",
+      "postId": "1q2r2vm",
+      "postTitle": "I took my first Ozempic just 5 minutes ago"
+    },
+    {
+      "id": "m44",
+      "brand": "Premier protein",
+      "sentiment": "neutral",
+      "context": "mentioning protein shake brand",
+      "text": "This is a general comment for first-time users/starters or people looking for advice \ud83d\ude0a, I hope it helps! (Sometimes I add it too for people looking for specific information that I don't want to type o...",
+      "source": "comment",
+      "postId": "1q2r2vm",
+      "postTitle": "I took my first Ozempic just 5 minutes ago"
+    },
+    {
+      "id": "m45",
+      "brand": "Crystal Light",
+      "sentiment": "neutral",
+      "context": "mentioning drink mix",
+      "text": "This is a general comment for first-time users/starters or people looking for advice \ud83d\ude0a, I hope it helps! (Sometimes I add it too for people looking for specific information that I don't want to type o...",
+      "source": "comment",
+      "postId": "1q2r2vm",
+      "postTitle": "I took my first Ozempic just 5 minutes ago"
+    },
+    {
+      "id": "m48",
+      "brand": "Restoralax",
+      "sentiment": "neutral",
+      "context": "mentioning laxative",
+      "text": "This is a general comment for first-time users/starters or people looking for advice \ud83d\ude0a, I hope it helps! (Sometimes I add it too for people looking for specific information that I don't want to type o...",
+      "source": "comment",
+      "postId": "1q2r2vm",
+      "postTitle": "I took my first Ozempic just 5 minutes ago"
+    },
+    {
+      "id": "m49",
+      "brand": "Imodium",
+      "sentiment": "neutral",
+      "context": "mentioning medication",
+      "text": "This is a general comment for first-time users/starters or people looking for advice \ud83d\ude0a, I hope it helps! (Sometimes I add it too for people looking for specific information that I don't want to type o...",
+      "source": "comment",
+      "postId": "1q2r2vm",
+      "postTitle": "I took my first Ozempic just 5 minutes ago"
+    },
+    {
+      "id": "m52",
+      "brand": "Zofran",
+      "sentiment": "neutral",
+      "context": "mentioning medication",
+      "text": "This is a general comment for first-time users/starters or people looking for advice \ud83d\ude0a, I hope it helps! (Sometimes I add it too for people looking for specific information that I don't want to type o...",
+      "source": "comment",
+      "postId": "1q2r2vm",
+      "postTitle": "I took my first Ozempic just 5 minutes ago"
+    },
+    {
+      "id": "m56",
+      "brand": "LoseIt",
+      "sentiment": "neutral",
+      "context": "mentioning app",
+      "text": "I\u2019ve been spending a lot of time reading through research, forums, and personal stories around GLP-1 medications like Ozempic. While it\u2019s been fascinating to see how effective they can be, I\u2019ve also n...",
+      "source": "post",
+      "postId": "1q2h968",
+      "postTitle": "Need Help! Understanding Ozempic Patient Experiences and Concerns"
+    },
+    {
+      "id": "m60",
+      "brand": "LoseIt",
+      "sentiment": "neutral",
+      "context": "weight tracking app",
+      "text": "This is a general comment for first-time users/starters or people looking for advice \ud83d\ude0a, I hope it helps! (Sometimes I add it too for people looking for specific information that I don't want to type o...",
+      "source": "comment",
+      "postId": "1q28mkd",
+      "postTitle": "I think I need someone to tell me I didn't make a mistake."
+    },
+    {
+      "id": "m61",
+      "brand": "Fairlife",
+      "sentiment": "neutral",
+      "context": "premade protein shake",
+      "text": "This is a general comment for first-time users/starters or people looking for advice \ud83d\ude0a, I hope it helps! (Sometimes I add it too for people looking for specific information that I don't want to type o...",
+      "source": "comment",
+      "postId": "1q28mkd",
+      "postTitle": "I think I need someone to tell me I didn't make a mistake."
+    },
+    {
+      "id": "m63",
+      "brand": "Crystal Light",
+      "sentiment": "neutral",
+      "context": "suggested to use in water",
+      "text": "This is a general comment for first-time users/starters or people looking for advice \ud83d\ude0a, I hope it helps! (Sometimes I add it too for people looking for specific information that I don't want to type o...",
+      "source": "comment",
+      "postId": "1q28mkd",
+      "postTitle": "I think I need someone to tell me I didn't make a mistake."
+    },
+    {
+      "id": "m65",
+      "brand": "Fairlife",
+      "sentiment": "neutral",
+      "context": "suggested protein shake",
+      "text": "Consider getting him some protein shakes (many are low carb). That could help him during the day. Mention how he will lose muscle mass if he doesn't get enough protein, and hopefully that will help a ...",
+      "source": "comment",
+      "postId": "1q25zv1",
+      "postTitle": "Worried about my father who uses ozempic"
+    },
+    {
+      "id": "m66",
+      "brand": "Fairlife",
+      "sentiment": "neutral",
+      "context": "protein shake suggestion",
+      "text": "I\u2019m about 5 years younger than OP\u2019s dad, and 59 and dizzy and forgetful on a GLP-1 is *much* more likely to be a result of poor nutrition/hydration/other hormonal changes related to meds than age-rela...",
+      "source": "comment",
+      "postId": "1q25zv1",
+      "postTitle": "Worried about my father who uses ozempic"
+    },
+    {
+      "id": "m67",
+      "brand": "Zofran",
+      "sentiment": "neutral",
+      "context": "Zofran Rx",
+      "text": "I asked my PVP for a Zofran Rx because I am have nausea/vomiting 1-2x week. I have been taking Ozempic since August and just now reached the 2mg dose. The nausea/vomiting have been since the beginning...",
+      "source": "post",
+      "postId": "1q1iwgr",
+      "postTitle": "Is my PCP right?"
+    },
+    {
+      "id": "m68",
+      "brand": "Zofran",
+      "sentiment": "neutral",
+      "context": "had rhe Zofran",
+      "text": "I asked my PVP for a Zofran Rx because I am have nausea/vomiting 1-2x week. I have been taking Ozempic since August and just now reached the 2mg dose. The nausea/vomiting have been since the beginning...",
+      "source": "post",
+      "postId": "1q1iwgr",
+      "postTitle": "Is my PCP right?"
+    },
+    {
+      "id": "m71",
+      "brand": "Zofran",
+      "sentiment": "neutral",
+      "context": "already take zofran",
+      "text": "Hello all,\nSo here I am a year deep in ozempic. Im diabetic and have slowly increased over the year from .5 to current 2. I started 2 about 3 weeks ago. The absolute biggest problem I have is Vomiting...",
+      "source": "post",
+      "postId": "1q1f65x",
+      "postTitle": "Side effect help"
+    },
+    {
+      "id": "m72",
+      "brand": "Zofran",
+      "sentiment": "neutral",
+      "context": "had the Rx for zofran",
+      "text": "Hello all,\nSo here I am a year deep in ozempic. Im diabetic and have slowly increased over the year from .5 to current 2. I started 2 about 3 weeks ago. The absolute biggest problem I have is Vomiting...",
+      "source": "post",
+      "postId": "1q1f65x",
+      "postTitle": "Side effect help"
+    },
+    {
+      "id": "m73",
+      "brand": "Metformin",
+      "sentiment": "neutral",
+      "context": "Metformin can also help",
+      "text": "You need to either lower your dose to maybe 1.5 mg with your physician\u2019s consent. Your current A1c should be considered. You could also discuss split doses if they insist you must stay on 2 mg. Think ...",
+      "source": "comment",
+      "postId": "1q1f65x",
+      "postTitle": "Side effect help"
+    },
+    {
+      "id": "m74",
+      "brand": "Restoralax",
+      "sentiment": "neutral",
+      "context": "remedies like restorlax",
+      "text": "I do try. Soup, soft bland. I only ever crave fruit. The fruit hates me lol. Popsicles, jello things like that can all still very much trigger a violent session. I have celiac, lactose intolerant and ...",
+      "source": "comment",
+      "postId": "1q1f65x",
+      "postTitle": "Side effect help"
+    },
+    {
+      "id": "m75",
+      "brand": "Imodium",
+      "sentiment": "neutral",
+      "context": "something like imodium",
+      "text": "I do try. Soup, soft bland. I only ever crave fruit. The fruit hates me lol. Popsicles, jello things like that can all still very much trigger a violent session. I have celiac, lactose intolerant and ...",
+      "source": "comment",
+      "postId": "1q1f65x",
+      "postTitle": "Side effect help"
+    },
+    {
+      "id": "m76",
+      "brand": "Costco",
+      "sentiment": "neutral",
+      "context": "Costco US is $199",
+      "text": "Costco US is $199",
+      "source": "comment",
+      "postId": "1q1es5b",
+      "postTitle": "How does refilling for your second month work with this plan?"
+    },
+    {
+      "id": "m77",
+      "brand": "Costco",
+      "sentiment": "neutral",
+      "context": "Costco Canada is 240 per pen",
+      "text": "Costco Canada is 240 per pen.",
+      "source": "comment",
+      "postId": "1q1es5b",
+      "postTitle": "How does refilling for your second month work with this plan?"
+    },
+    {
+      "id": "m79",
+      "brand": "Felix",
+      "sentiment": "negative",
+      "context": "doesn't ship to Quebec",
+      "text": "Hello everyone! \n\nI\u2019m new to Reddit and not too sure how everything works but I really need help so here I am.\n\nI (22f), live in Montreal and have been diagnosed with PCOS by an endocrinologist a few ...",
+      "source": "post",
+      "postId": "1q16nmv",
+      "postTitle": "Ozempic for PCOS in Qu\u00e9bec"
+    },
+    {
+      "id": "m86",
+      "brand": "Costco",
+      "sentiment": "positive",
+      "context": "recommends stretchy belt",
+      "text": "I'm down 50lbs since starting ozempic in August and my pants have officially become too big for me.  I can't afford new clothes nor can i afford to get it all tailored (though i do have a few peices i...",
+      "source": "post",
+      "postId": "1q0rlx9",
+      "postTitle": "Where y'all getting your belts?"
+    },
+    {
+      "id": "m87",
+      "brand": "Amazon",
+      "sentiment": "neutral",
+      "context": "link to belt",
+      "text": "I'm down 50lbs since starting ozempic in August and my pants have officially become too big for me.  I can't afford new clothes nor can i afford to get it all tailored (though i do have a few peices i...",
+      "source": "post",
+      "postId": "1q0rlx9",
+      "postTitle": "Where y'all getting your belts?"
+    },
+    {
+      "id": "m88",
+      "brand": "Amazon",
+      "sentiment": "neutral",
+      "context": "link to belt",
+      "text": "https://a.co/d/g4J9VS4\n\nMy bf and his brother got these for Christmas. They are stretchy and can fit any size because there is no \u201choles\u201d.",
+      "source": "comment",
+      "postId": "1q0rlx9",
+      "postTitle": "Where y'all getting your belts?"
+    },
+    {
+      "id": "m92",
+      "brand": "Costco",
+      "sentiment": "neutral",
+      "context": "savings available in New Brunswick",
+      "text": "With Ozempic.ca you get an insurance type card that the pharmacy adds to your account. Sometimes similar is available at https://www.innovicares.ca/en/about-the-card/whats-covered/ozempic/. This one s...",
+      "source": "comment",
+      "postId": "1q0kfu2",
+      "postTitle": "What kind of discounts are there for ozempic in Canada?"
+    },
+    {
+      "id": "m94",
+      "brand": "MyFitnessPal",
+      "sentiment": "neutral",
+      "context": "mentioned as a tracking app",
+      "text": "I\u2019ve found that less tracking works better for me on GLP-1s.\n\nI track:\n\t\u2022\tCalories (loosely, mainly to avoid under-eating)\n\t\u2022\tProtein\n\t\u2022\tHydration\n\t\u2022\tWeekly weight trend\n\nI don\u2019t track hunger, craving...",
+      "source": "comment",
+      "postId": "1q0k7hv",
+      "postTitle": "What do you wish GLP-1 tracking apps actually did better?"
+    },
+    {
+      "id": "m99",
+      "brand": "ChatGPT",
+      "sentiment": "neutral",
+      "context": "used for tracking health",
+      "text": "Instead of App, I use Gemini and Chatgpt to track.",
+      "source": "comment",
+      "postId": "1q0k7hv",
+      "postTitle": "What do you wish GLP-1 tracking apps actually did better?"
+    },
+    {
+      "id": "m104",
+      "brand": "Amazon",
+      "sentiment": "neutral",
+      "context": "where Lunos Grow is sold",
+      "text": "Had to drop my dose back down to 1.0 for a couple of reasons.  Hunger and food noise didn\u2019t spike but my body apparently cherished each and every calorie I ate.  I have jumped 15 lbs in the past month...",
+      "source": "post",
+      "postId": "1q0dky5",
+      "postTitle": "Christmas catastrophe"
+    },
+    {
+      "id": "m108",
+      "brand": "Imodium",
+      "sentiment": "neutral",
+      "context": "mentioned for diarrhea relief",
+      "text": "Sometimes when reactions have been triggered they are hard to get under control again. Stick to a brat diet and consider using split doses this week. 1/2 dose on normal day and 1/2 dose 3 or 4 days la...",
+      "source": "comment",
+      "postId": "1q0bj37",
+      "postTitle": "Help"
+    },
+    {
+      "id": "m109",
+      "brand": "Costco",
+      "sentiment": "neutral",
+      "context": "mentioned as a place to pay",
+      "text": "I was recently diagnosed with diabetes. I am over weight by a lot. My A1C was 6.5.  My doctor said exercise and diet. Well, I wouldn't be this way if I could do it. Now I am trying to g to decide do I...",
+      "source": "post",
+      "postId": "1q03pe6",
+      "postTitle": "Can't get a prescription"
+    },
+    {
+      "id": "m114",
+      "brand": "Costco",
+      "sentiment": "neutral",
+      "context": "mentioned as a place to pay",
+      "text": "Do you have health insurance and will they pay for Ozempic ? If the answer is no can you afford to pay $499 per month out of your own pocket. Which is what Costco and Sam\u2019s Club charges. If you have i...",
+      "source": "comment",
+      "postId": "1q03pe6",
+      "postTitle": "Can't get a prescription"
+    },
+    {
+      "id": "m125",
+      "brand": "Amazon",
+      "sentiment": "neutral",
+      "context": "mentioned as a place to buy a needle cutter",
+      "text": "How are y\u2019all disposing of your needles? I was using the tiny tips that come with my pen but my SO needs entire syringe disposal. My solution was a heavy but smaller plastic bottle but it\u2019s too small ...",
+      "source": "post",
+      "postId": "1q00bcl",
+      "postTitle": "Sharps disposal"
+    },
+    {
+      "id": "m128",
+      "brand": "Costco",
+      "sentiment": "neutral",
+      "context": "pharmacy mentioned.",
+      "text": "**Dosages:** 4 x 0.25, 3 x 0.5 (next shot tomorrow)\n\n\n\n**A1C:** August 28 - 8.0, December 29 - 7.0\n\n\n\n**Weight:** 196lbs at start. 188lbs. today (-8lbs)\n\n\n\n**Costs:** I fill my presecriptions at Costc...",
+      "source": "post",
+      "postId": "1pzt944",
+      "postTitle": "T2D - 7 weeks in - here's where I'm at (Canadian costs included)"
+    },
+    {
+      "id": "m134",
+      "brand": "Costco",
+      "sentiment": "neutral",
+      "context": "place to buy Wegovy pills",
+      "text": "Thoughts on access for Ozempic users?",
+      "source": "post",
+      "postId": "1pzi2pe",
+      "postTitle": "Weight-Loss Pill Unlikely to Be Cheap. Novo Nordisk Signals Prices Will Remain High"
+    },
+    {
+      "id": "m137",
+      "brand": "Amazon",
+      "sentiment": "neutral",
+      "context": "store to purchase ginger drops",
+      "text": "I've heard the stories about Ozempic \"quieting the food noise\" and I've heard some people \"eat out Ozempic\". Tell me your story whether it was good or bad. ",
+      "source": "post",
+      "postId": "1pz4tgm",
+      "postTitle": "Please tell me your sucess and failed stories"
+    },
+    {
+      "id": "m138",
+      "brand": "Restoralax",
+      "sentiment": "positive",
+      "context": "recommended for constipation",
+      "text": "Great experience for the first couple of months. Lost almost 15 lbs. and no bad side effects. I was traveling for 3 weeks and thought I\u2019d take a break and resume when I got back. Big mistake! Upon res...",
+      "source": "comment",
+      "postId": "1pz4tgm",
+      "postTitle": "Please tell me your sucess and failed stories"
+    },
+    {
+      "id": "m145",
+      "brand": "Restoralax",
+      "sentiment": "neutral",
+      "context": "stool softener mention",
+      "text": "Stock up on stool softeners and anti-nausea meds in case you have side effects. Begin immediately getting in the habit of tracking your calories and drinking more water than you think you need. Increa...",
+      "source": "comment",
+      "postId": "1pyzkf6",
+      "postTitle": "What to know before starting"
+    },
+    {
+      "id": "m147",
+      "brand": "Amazon",
+      "sentiment": "neutral",
+      "context": "where dumbbells were purchased",
+      "text": "Congrats!",
+      "source": "comment",
+      "postId": "1py9wtl",
+      "postTitle": "Started at 376 now down to 290."
+    },
+    {
+      "id": "m148",
+      "brand": "LoseIt",
+      "sentiment": "positive",
+      "context": "recommended app for tracking",
+      "text": "This is a general comment for first-time users/starters or people looking for advice \ud83d\ude0a, I hope it helps! (Sometimes I add it too for people looking for specific information that I don't want to type o...",
+      "source": "comment",
+      "postId": "1py9htq",
+      "postTitle": "Just starting!"
+    },
+    {
+      "id": "m154",
+      "brand": "Metformin",
+      "sentiment": "neutral",
+      "context": "medication being taken",
+      "text": "I really need a weight loss shot. My family doctor is really good. He suggested this. I know I said he's really good because he cares about his patients and I can talk to him about anything. I'm just ...",
+      "source": "post",
+      "postId": "1py1v79",
+      "postTitle": "What is the worst side effect of ozempic?"
+    },
+    {
+      "id": "m155",
+      "brand": "MyFitnessPal",
+      "sentiment": "neutral",
+      "context": "App used for tracking",
+      "text": "As a foodie, it\u2019s been really challenging as I am just not very hungry most of the time. I focus on daily protein targets easily attainable by having a 2 cup container with soy or regular milk and 2 s...",
+      "source": "comment",
+      "postId": "1pxvkm1",
+      "postTitle": "How do you handle protein on low-appetite days with GLP-1?"
+    },
+    {
+      "id": "m156",
+      "brand": "Fairlife",
+      "sentiment": "positive",
+      "context": "Protein shakes help",
+      "text": "Fairlife protein shakes.",
+      "source": "comment",
+      "postId": "1pxvkm1",
+      "postTitle": "How do you handle protein on low-appetite days with GLP-1?"
+    },
+    {
+      "id": "m157",
+      "brand": "Fairlife",
+      "sentiment": "positive",
+      "context": "High-protein shakes option",
+      "text": "liquids are clutch. Protein shakes, fairlife/ensure high protein",
+      "source": "comment",
+      "postId": "1pxvkm1",
+      "postTitle": "How do you handle protein on low-appetite days with GLP-1?"
+    },
+    {
+      "id": "m162",
+      "brand": "Fairlife",
+      "sentiment": "positive",
+      "context": "Protein shakes are best",
+      "text": "I pound those fairlife core chocolate protein shakes like I'm a fat kid chugging choco milk. Literally the best thing I've had. Plus ratio yogurts with 20 g protein. Or cereal with the fairlife lactos...",
+      "source": "comment",
+      "postId": "1pxvkm1",
+      "postTitle": "How do you handle protein on low-appetite days with GLP-1?"
+    },
+    {
+      "id": "m170",
+      "brand": "Metamucil",
+      "sentiment": "neutral",
+      "context": "Gummies for fiber",
+      "text": "https://preview.redd.it/lhmviatzd4ag1.jpg?width=213&format=pjpg&auto=webp&s=30c3cf178de1c59b0906190141b5ff1c20b938b1\n\n",
+      "source": "post",
+      "postId": "1pxlla5",
+      "postTitle": "Who takes Citrucel caplets for added fiber ... and how's it going?"
+    },
+    {
+      "id": "m173",
+      "brand": "Metformin",
+      "sentiment": "neutral",
+      "context": "Medication being taken",
+      "text": "Does anyone else feel like this shot make your face look older, younger or the same?",
+      "source": "post",
+      "postId": "1pxfncb",
+      "postTitle": "Looks"
+    },
+    {
+      "id": "m174",
+      "brand": "Zofran",
+      "sentiment": "neutral",
+      "context": "Medicine recommendation",
+      "text": "I am 5 weeks into my Ozempic journey and I have such extreme nausea, I can\u2019t even keep water down. Everything comes back up after about 5-10 minutes, all day every day.\n\nHas anyone else experienced th...",
+      "source": "post",
+      "postId": "1pxe93p",
+      "postTitle": "5 weeks in - Extreme nausea"
+    },
+    {
+      "id": "m176",
+      "brand": "Zofran",
+      "sentiment": "neutral",
+      "context": "Suggestion to treat nausea ",
+      "text": "How many pounds did you lose before people started noticing?",
+      "source": "post",
+      "postId": "1pxe3iy",
+      "postTitle": "How long did it take?"
+    },
+    {
+      "id": "m184",
+      "brand": "Amazon",
+      "sentiment": "neutral",
+      "context": "online retailer",
+      "text": "1) Thank you! I love the ordinary!\n\n2) I read some amazon review and I can\u2019t even remember what product it was for but the woman would order volufiline in pure form and add it to what was some retinol...",
+      "source": "comment",
+      "postId": "1pvupfl",
+      "postTitle": "Under eye solutions"
+    },
+    {
+      "id": "m188",
+      "brand": "Costco",
+      "sentiment": "positive",
+      "context": "Cheaper prescription option",
+      "text": "I also have Kaiser, have your doctor send the RX to Costco and it will be hundreds cheaper. I paid $200 for my first pen",
+      "source": "comment",
+      "postId": "1puzpaj",
+      "postTitle": "How much are you actually paying?"
+    },
+    {
+      "id": "m189",
+      "brand": "Kaiser",
+      "sentiment": "neutral",
+      "context": "insurance coverage",
+      "text": "I have T2D so it\u2019s covered under Kaiser insurance (I\u2019m in NorCal). I pay $25-30 a month",
+      "source": "comment",
+      "postId": "1puzpaj",
+      "postTitle": "How much are you actually paying?"
+    },
+    {
+      "id": "m190",
+      "brand": "Costco",
+      "sentiment": "neutral",
+      "context": "alternative cost option",
+      "text": "costco has a 399 starter, 499 monthly program somehow that you can apply through.    The oral ozempic was just approved, may land at $149, but I'll believe it when I see it.\n\nYou can get compounded ch...",
+      "source": "comment",
+      "postId": "1puzpaj",
+      "postTitle": "How much are you actually paying?"
+    },
+    {
+      "id": "m196",
+      "brand": "Costco",
+      "sentiment": "positive",
+      "context": "cheaper medication option",
+      "text": "Costco has it for 199 per pen.",
+      "source": "comment",
+      "postId": "1puzpaj",
+      "postTitle": "How much are you actually paying?"
+    },
+    {
+      "id": "m198",
+      "brand": "Kaiser",
+      "sentiment": "neutral",
+      "context": "insurance provider",
+      "text": "Kaiser NorCal  and my copay is $20 a month.",
+      "source": "comment",
+      "postId": "1puzpaj",
+      "postTitle": "How much are you actually paying?"
+    },
+    {
+      "id": "m199",
+      "brand": "Kaiser",
+      "sentiment": "neutral",
+      "context": "insurance provider",
+      "text": "Because of my T2D, including my Kaiser coverage, I pay $50 every 4 weeks.",
+      "source": "comment",
+      "postId": "1puzpaj",
+      "postTitle": "How much are you actually paying?"
+    },
+    {
+      "id": "m201",
+      "brand": "Kaiser",
+      "sentiment": "neutral",
+      "context": "insurance provider",
+      "text": "I was at $40/m on Kaiser SoCal in 2024, similar BMI to you, now I get the $729 quote. Outrageous.",
+      "source": "comment",
+      "postId": "1puzpaj",
+      "postTitle": "How much are you actually paying?"
+    },
+    {
+      "id": "m202",
+      "brand": "Metamucil",
+      "sentiment": "positive",
+      "context": "resolved gastrointestinal issues",
+      "text": "I have been on Ozempic for 18 months for T2 Diabetes with all the gastrointestinal ups and downs, I found the solution for me two months ago!  I take 2 Metamucil Fiber and Probiotic Gummies (No Added ...",
+      "source": "post",
+      "postId": "1puw1lr",
+      "postTitle": "Ozempic Side Effect Relief"
+    },
+    {
+      "id": "m216",
+      "brand": "Chipotle",
+      "sentiment": "neutral",
+      "context": "restaurant chain",
+      "text": "hey Canadian friends, just received this savings card email.   \nFigured I would pass it on in case anyone else did not receive the email. \n\nHere is the link: [https://www.nnpatientconnect.ca/en/wegovy...",
+      "source": "post",
+      "postId": "1pu46m9",
+      "postTitle": "WEGOVY savings card - Canadian"
+    },
+    {
+      "id": "m217",
+      "brand": "Chipotle",
+      "sentiment": "neutral",
+      "context": "restaurant chain",
+      "text": "I think I save approx $5 with this card... \n\nSaving card is a bit of a stretch.",
+      "source": "comment",
+      "postId": "1pu46m9",
+      "postTitle": "WEGOVY savings card - Canadian"
+    },
+    {
+      "id": "m218",
+      "brand": "Costco",
+      "sentiment": "neutral",
+      "context": "store where coupon was used",
+      "text": "Yes I signed up and not sure if this is the coupon Costco had for my last pick up which resulted in 30 dollar savings out of 700 bill.  I mean something is something \u2026 but wish it was more",
+      "source": "comment",
+      "postId": "1pu46m9",
+      "postTitle": "WEGOVY savings card - Canadian"
+    },
+    {
+      "id": "m219",
+      "brand": "Chipotle",
+      "sentiment": "neutral",
+      "context": "restaurant chain",
+      "text": "Yes I signed up and not sure if this is the coupon Costco had for my last pick up which resulted in 30 dollar savings out of 700 bill.  I mean something is something \u2026 but wish it was more",
+      "source": "comment",
+      "postId": "1pu46m9",
+      "postTitle": "WEGOVY savings card - Canadian"
+    },
+    {
+      "id": "m220",
+      "brand": "Chipotle",
+      "sentiment": "neutral",
+      "context": "restaurant chain",
+      "text": "That's just one of many whose applications are in the pipeline.",
+      "source": "comment",
+      "postId": "1pu46m9",
+      "postTitle": "WEGOVY savings card - Canadian"
+    },
+    {
+      "id": "m224",
+      "brand": "Chipotle",
+      "sentiment": "neutral",
+      "context": "restaurant chain",
+      "text": "Any food is technically GLP-1 friendly. \n\nI don\u2019t really understand this marketing when you could literally just get a salad or ask for no rice",
+      "source": "comment",
+      "postId": "1pu13x2",
+      "postTitle": "When I say run don\u2019t walk to Chipotle. They just dropped a GLP-1 menu and it\u2019s amazing."
+    },
+    {
+      "id": "m225",
+      "brand": "Chipotle",
+      "sentiment": "neutral",
+      "context": "restaurant chain",
+      "text": "Isn't this just a chicken bowl with less rice?",
+      "source": "comment",
+      "postId": "1pu13x2",
+      "postTitle": "When I say run don\u2019t walk to Chipotle. They just dropped a GLP-1 menu and it\u2019s amazing."
+    },
+    {
+      "id": "m226",
+      "brand": "Chipotle",
+      "sentiment": "neutral",
+      "context": "restaurant chain",
+      "text": "All food is GLP-1 friendly that\u2019s one of the best parts of this class of drugs! This is just some fat tax marketing from Chipotle.",
+      "source": "comment",
+      "postId": "1pu13x2",
+      "postTitle": "When I say run don\u2019t walk to Chipotle. They just dropped a GLP-1 menu and it\u2019s amazing."
+    },
+    {
+      "id": "m227",
+      "brand": "Chipotle",
+      "sentiment": "neutral",
+      "context": "restaurant chain",
+      "text": "It's just marketing guys.....",
+      "source": "comment",
+      "postId": "1pu13x2",
+      "postTitle": "When I say run don\u2019t walk to Chipotle. They just dropped a GLP-1 menu and it\u2019s amazing."
+    },
+    {
+      "id": "m228",
+      "brand": "Chipotle",
+      "sentiment": "neutral",
+      "context": "restaurant chain",
+      "text": "You've always been able to get this there. They just marketed it well with a label.",
+      "source": "comment",
+      "postId": "1pu13x2",
+      "postTitle": "When I say run don\u2019t walk to Chipotle. They just dropped a GLP-1 menu and it\u2019s amazing."
+    },
+    {
+      "id": "m229",
+      "brand": "Chipotle",
+      "sentiment": "neutral",
+      "context": "restaurant chain",
+      "text": "Chipotle is just riding the GLP-1 wave, but hey, if it gets more people to choose healthier options, I'm all for it.",
+      "source": "comment",
+      "postId": "1pu13x2",
+      "postTitle": "When I say run don\u2019t walk to Chipotle. They just dropped a GLP-1 menu and it\u2019s amazing."
+    },
+    {
+      "id": "m230",
+      "brand": "Chipotle",
+      "sentiment": "neutral",
+      "context": "restaurant chain",
+      "text": "Looks pretty much the same as what I order anyways, though I go for the cheap chicken\u2026 that adobo sauce is sweet and not worth the markup.\n\nCould be helpful for people who don't know their way around ...",
+      "source": "comment",
+      "postId": "1pu13x2",
+      "postTitle": "When I say run don\u2019t walk to Chipotle. They just dropped a GLP-1 menu and it\u2019s amazing."
+    },
+    {
+      "id": "m231",
+      "brand": "Chipotle",
+      "sentiment": "neutral",
+      "context": "restaurant chain",
+      "text": "Just... Make it yourself?",
+      "source": "comment",
+      "postId": "1pu13x2",
+      "postTitle": "When I say run don\u2019t walk to Chipotle. They just dropped a GLP-1 menu and it\u2019s amazing."
+    },
+    {
+      "id": "m232",
+      "brand": "Chipotle",
+      "sentiment": "neutral",
+      "context": "restaurant chain",
+      "text": "Seems like nothing new there except having a cup of meat on the menu but all the same ingredients.",
+      "source": "comment",
+      "postId": "1pu13x2",
+      "postTitle": "When I say run don\u2019t walk to Chipotle. They just dropped a GLP-1 menu and it\u2019s amazing."
+    },
+    {
+      "id": "m233",
+      "brand": "Chipotle",
+      "sentiment": "neutral",
+      "context": "restaurant chain",
+      "text": "That isn\u2019t the GLp friendly option though. The double protein has beans and rice",
+      "source": "comment",
+      "postId": "1pu13x2",
+      "postTitle": "When I say run don\u2019t walk to Chipotle. They just dropped a GLP-1 menu and it\u2019s amazing."
+    },
+    {
+      "id": "m234",
+      "brand": "Chipotle",
+      "sentiment": "neutral",
+      "context": "restaurant chain",
+      "text": "Two of them say GLP friendly and one has no description other than \u201chigh protein\u201d Beans are a good source of protein so don\u2019t know what that matters.\n\nLink to full menu\n\nhttps://www.chipotle.com/order...",
+      "source": "comment",
+      "postId": "1pu13x2",
+      "postTitle": "When I say run don\u2019t walk to Chipotle. They just dropped a GLP-1 menu and it\u2019s amazing."
+    },
+    {
+      "id": "m236",
+      "brand": "Chipotle",
+      "sentiment": "neutral",
+      "context": "restaurant chain",
+      "text": "Which isn\u2019t the double protein bowl\u2026",
+      "source": "comment",
+      "postId": "1pu13x2",
+      "postTitle": "When I say run don\u2019t walk to Chipotle. They just dropped a GLP-1 menu and it\u2019s amazing."
+    },
+    {
+      "id": "m237",
+      "brand": "Chipotle",
+      "sentiment": "neutral",
+      "context": "restaurant chain",
+      "text": "Be obtuse on purpose. I don\u2019t care. Have the day you deserve.",
+      "source": "comment",
+      "postId": "1pu13x2",
+      "postTitle": "When I say run don\u2019t walk to Chipotle. They just dropped a GLP-1 menu and it\u2019s amazing."
+    },
+    {
+      "id": "m239",
+      "brand": "Metamucil",
+      "sentiment": "neutral",
+      "context": "using to combat constipation",
+      "text": "I'm on week 7 of my treatment for weight loss. I did 4 weeks at 0.25mg, this was week 3 at 0.5. All throughout the constipation has been horrible. Using Laxaday and Metamucil, drinking lots of water, ...",
+      "source": "post",
+      "postId": "1pty60v",
+      "postTitle": "Week 7- Nausea and Constipation Nearly Unbearable"
+    },
+    {
+      "id": "m249",
+      "brand": "Protein shakes",
+      "sentiment": "neutral",
+      "context": "supplemented foods",
+      "text": "I'm on 1.7 mg dose and the first 3 days after the shot I feel in pain , exausted, and depressed. The body is adjusting . When I was on 0.25 back in June for 8 weeks I was fine also when updosing to 0....",
+      "source": "comment",
+      "postId": "1ptgrhv",
+      "postTitle": "So tired"
+    },
+    {
+      "id": "m252",
+      "brand": "Protein shakes",
+      "sentiment": "neutral",
+      "context": "supplemented foods",
+      "text": "I just started last week and I\u2019m getting those feelings too. Need to start protein shakes, hope that helps",
+      "source": "comment",
+      "postId": "1ptgrhv",
+      "postTitle": "So tired"
+    },
+    {
+      "id": "m253",
+      "brand": "Protein shakes",
+      "sentiment": "neutral",
+      "context": "supplemented foods",
+      "text": "it helps, also drink lots of water and more protein like chicken or eggs. The feeling of numbess start fading away a little after the 4th day you had the shot. I usually get injected on sat, and all s...",
+      "source": "comment",
+      "postId": "1ptgrhv",
+      "postTitle": "So tired"
+    },
+    {
+      "id": "m254",
+      "brand": "Metformin",
+      "sentiment": "neutral",
+      "context": "diabetes medication",
+      "text": "Many will do 1.5mg using pen clicks next instead of going to 2.0.  Usually, much fewer side effects and you can still keep losing.  I lost 50 pounds my first year and never got higher than 1.6mg.",
+      "source": "comment",
+      "postId": "1ptgfg3",
+      "postTitle": "Increase from 1 mg to 2 mg"
+    },
+    {
+      "id": "m255",
+      "brand": "Metformin",
+      "sentiment": "neutral",
+      "context": "diabetes medication",
+      "text": "My PCP and I talked about me coming off the Metformin  for a few months now. The agreement was depending on my recent a1c and lipid results would be the factor. I've now reached the point where she fe...",
+      "source": "comment",
+      "postId": "1ptgfg3",
+      "postTitle": "Increase from 1 mg to 2 mg"
+    },
+    {
+      "id": "m256",
+      "brand": "Fairlife",
+      "sentiment": "neutral",
+      "context": "milk brand",
+      "text": "I\u2019m taking mine. I don\u2019t see why I wouldn\u2019t. Life is so much better with Ozempic, I don\u2019t see why I would want a break.",
+      "source": "comment",
+      "postId": "1ptg3fv",
+      "postTitle": "A Christmas gift\u2026"
+    },
+    {
+      "id": "m259",
+      "brand": "Felix",
+      "sentiment": "neutral",
+      "context": "telehealth platform",
+      "text": "Hello Everyone, is it true that the prices are supposed to go down (in Canada) in the new year? My insurance did not approve Wegovy (and I won't even bother asking for Ozempic because for that I would...",
+      "source": "post",
+      "postId": "1pt9y74",
+      "postTitle": "Ozempic /Wegovy pricing in the new year"
+    },
+    {
+      "id": "m263",
+      "brand": "Metformin",
+      "sentiment": "neutral",
+      "context": "tried but caused dizziness",
+      "text": "Doc diagnosed me with Type 2 about 2 years ago.  A1C was around 10.x.  Tried Metformin but it made me wildly dizzy.  Cut back the dosage and added Glimperide and my A1C actually went up.  That\u2019s when ...",
+      "source": "comment",
+      "postId": "1pt83yl",
+      "postTitle": "Diabetes 2 and weight loss"
+    },
+    {
+      "id": "m279",
+      "brand": "Amazon",
+      "sentiment": "neutral",
+      "context": "buy extra needles",
+      "text": "Go back to .25 and just add 5 clicks each week working slowly up to .5 you can buy extra needles on Amazon. I did this and it worked so well. I went from crazy vomiting on 0.5 to working up slowly and...",
+      "source": "comment",
+      "postId": "1psplbd",
+      "postTitle": "I sailed through a month of .25, but I am unable to eat *anything* without getting extremely sick since going up on my dose Friday morning. Is this normal? What am I supposed to eat?"
+    },
+    {
+      "id": "m281",
+      "brand": "Zofran",
+      "sentiment": "neutral",
+      "context": "anti nausea medicine",
+      "text": "Anti nausea medicines help a lot, especially if you take them before the worst side effects. It\u2019s the only thing that helped me. Ondansetron or zofran. I found my side effects come about 12 to 36 hour...",
+      "source": "comment",
+      "postId": "1psplbd",
+      "postTitle": "I sailed through a month of .25, but I am unable to eat *anything* without getting extremely sick since going up on my dose Friday morning. Is this normal? What am I supposed to eat?"
+    },
+    {
+      "id": "m282",
+      "brand": "Walmart",
+      "sentiment": "neutral",
+      "context": "pharmacy for medication",
+      "text": "The 1mg pen was actually cheaper for me. I\u2019m on 0.5mg but was prescribed the 1mg pen and fill it at Walmart. I\u2019m staying on 0.5mg for as long as it keeps working. Bonus is the pen lasts longer too \ud83d\ude42",
+      "source": "comment",
+      "postId": "1ps9m62",
+      "postTitle": "20 lbs in 16 weeks (0.5) Canada"
+    },
+    {
+      "id": "m283",
+      "brand": "Walmart",
+      "sentiment": "neutral",
+      "context": "potential pharmacy option",
+      "text": "PocketPills is having trouble getting my medication delivered, so Walmart might be my next step.",
+      "source": "comment",
+      "postId": "1ps9m62",
+      "postTitle": "20 lbs in 16 weeks (0.5) Canada"
+    },
+    {
+      "id": "m284",
+      "brand": "MyFitnessPal",
+      "sentiment": "neutral",
+      "context": "tracking food intake",
+      "text": "Tracking.\n\nWeigh and log your food. In detail. Check the KCAL you eat everyday. Don't eyeball.\n\nTrack your weight. Preferable on a scale that weights fat and muscle mass. \n\nThen track progression.\n\nOn...",
+      "source": "comment",
+      "postId": "1pryrch",
+      "postTitle": "When will this I know this is working?"
+    },
+    {
+      "id": "m286",
+      "brand": "MiraLAX",
+      "sentiment": "positive",
+      "context": "stool softener, helps with constipation",
+      "text": "I take a half dose of MiraLAX (actually, the generic, same stuff exactly and 1/3 the price) every day in a 12oz cup of water. It\u2019s not really a laxative, it\u2019s a stool softener, so taking it after you\u2019...",
+      "source": "comment",
+      "postId": "1prtc31",
+      "postTitle": "This med is wreaking havoc on my body and I'm done."
+    },
+    {
+      "id": "m287",
+      "brand": "Zofran",
+      "sentiment": "neutral",
+      "context": "anti-nausea medication",
+      "text": "I've been doing this but it's definitely not sustainable. I can't be popping anti nausea meds all day long just to get through the day if the other option is stopping the med and stopping the nausea t...",
+      "source": "comment",
+      "postId": "1prtc31",
+      "postTitle": "This med is wreaking havoc on my body and I'm done."
+    },
+    {
+      "id": "m288",
+      "brand": "Zofran",
+      "sentiment": "positive",
+      "context": "helps with nausea",
+      "text": "Using anti nausea regularly is not harmful. And sometimes you brain gets into a cycle where you have to break the nausea and the connection of the medicine to it. By all means go off the medicine if i...",
+      "source": "comment",
+      "postId": "1prtc31",
+      "postTitle": "This med is wreaking havoc on my body and I'm done."
+    },
+    {
+      "id": "m289",
+      "brand": "Zofran",
+      "sentiment": "positive",
+      "context": "needed stat to help with nausea",
+      "text": "So did 4 weeks at .25, four weeks at .5, lost about 15 lbs, happy with that, minimal nausea most of the time, no big cravings, pretty good. Increased to 1.0 and I feel like crap, like first trimester ...",
+      "source": "post",
+      "postId": "1prf94w",
+      "postTitle": "Do side effects decrease?"
+    },
+    {
+      "id": "m290",
+      "brand": "Metformin",
+      "sentiment": "neutral",
+      "context": "taking 2000mg",
+      "text": "I take 2mg but for diabetes. I\u2019m sick most of the time. I honestly didn\u2019t have any issues till I moved to 2mg. Now I wake up dry heaving sometimes, if I have 4 or more drinks I\u2019m most likely throwing ...",
+      "source": "comment",
+      "postId": "1prelmk",
+      "postTitle": "Wowie!"
+    },
+    {
+      "id": "m291",
+      "brand": "Felix",
+      "sentiment": "neutral",
+      "context": "mentioned as a service",
+      "text": "I did my first injection today, but I am not sure if anything even went in me. Let me explain. When I got the Ozempic injector, I instantly dialed it to 0.25 mg without reading the instructions. When ...",
+      "source": "post",
+      "postId": "1pq8b6m",
+      "postTitle": "Questions from a beginner"
+    },
+    {
+      "id": "m294",
+      "brand": "Costco",
+      "sentiment": "neutral",
+      "context": "Ozempic refills at Costco",
+      "text": "Local pharmacy like Costco or similar, just walk in with the script and pay the 250.00 for the pen out of pocket.",
+      "source": "comment",
+      "postId": "1pq3er2",
+      "postTitle": "Where do you get your GLP-1?"
+    },
+    {
+      "id": "m295",
+      "brand": "Costco",
+      "sentiment": "neutral",
+      "context": "Ozempic refills at Costco",
+      "text": "I pay out of pocket and have my prescriptions filled at Costco.",
+      "source": "comment",
+      "postId": "1pq3er2",
+      "postTitle": "Where do you get your GLP-1?"
+    },
+    {
+      "id": "m297",
+      "brand": "Costco",
+      "sentiment": "positive",
+      "context": "thank you for the Costco tip",
+      "text": "I don\u2019t know why I haven\u2019t thought about costco. Thank you.",
+      "source": "comment",
+      "postId": "1pq3er2",
+      "postTitle": "Where do you get your GLP-1?"
+    },
+    {
+      "id": "m300",
+      "brand": "Protein shakes",
+      "sentiment": "neutral",
+      "context": "still able to drink",
+      "text": "Tomorrow will be my third shot of .50. I\u2019m rarely hungry. I\u2019m constipated. I used to LOVE roasted vegetables, not anymore. Can still drink protein shakes but yogurt is a meh. Is the aim just to make s...",
+      "source": "post",
+      "postId": "1ppi8o7",
+      "postTitle": "Do I force myself to eat?"
+    },
+    {
+      "id": "m304",
+      "brand": "Protein shakes",
+      "sentiment": "neutral",
+      "context": "used as a food source",
+      "text": "The best advice I received when I started was to not count calories, to count protein and fibre. I was told that I should aim for 150g of protein per day(this number might not be right for you) and wh...",
+      "source": "comment",
+      "postId": "1ppi8o7",
+      "postTitle": "Do I force myself to eat?"
+    },
+    {
+      "id": "m307",
+      "brand": "ChatGPT",
+      "sentiment": "neutral",
+      "context": "used to create a meal plan",
+      "text": "This is what I\u2019m thinking and worried about. Got a meal plan via chat gpt with 100gm protein and 25gm fibre and will just space it all out. Get rid of the habit of a \u201cmeal\u201d I guess - eat a bit at a ti...",
+      "source": "comment",
+      "postId": "1ppi8o7",
+      "postTitle": "Do I force myself to eat?"
+    },
+    {
+      "id": "m310",
+      "brand": "Metformin",
+      "sentiment": "neutral",
+      "context": "mentioned in relation to post-meno bleeding",
+      "text": "I took my first shot of Ozempic last Friday night, and felt some stomach discomfort starting the next day. Nothing terrible, just noticeable on and off throughout the day. The first few days it was mo...",
+      "source": "post",
+      "postId": "1ppay01",
+      "postTitle": "One Week of Ozempic Shot 0.25mg"
+    },
+    {
+      "id": "m311",
+      "brand": "Metformin",
+      "sentiment": "neutral",
+      "context": "mentioned in relation to blood sugar",
+      "text": "Since Metformin and GLP-1s help insulin be used effectivly yes it dose impact other hormones in the body inclusing being able to have a cycle, it is one reason why many are told when first placed on M...",
+      "source": "comment",
+      "postId": "1ppay01",
+      "postTitle": "One Week of Ozempic Shot 0.25mg"
+    },
+    {
+      "id": "m313",
+      "brand": "Felix",
+      "sentiment": "neutral",
+      "context": "telehealth provider",
+      "text": "In Canada, Felix does it online. You chat with a Nurse Practitioner. It gets darn expensive quickly.",
+      "source": "comment",
+      "postId": "1poxv4a",
+      "postTitle": "anywhere to buy online?"
+    },
+    {
+      "id": "m319",
+      "brand": "ChatGPT",
+      "sentiment": "neutral",
+      "context": "Used for advice",
+      "text": "I skipped a dose Dec 4 and the doctor said to just start back at my regular dose which is 2.0. I honestly questioned this and wish I had listened to my own intuition. I\u2019ve been grossly nauseated since...",
+      "source": "post",
+      "postId": "1pnt79p",
+      "postTitle": "I had to stop my Ozempic for procedure"
+    },
+    {
+      "id": "m320",
+      "brand": "Amazon",
+      "sentiment": "neutral",
+      "context": "place to buy pen needles",
+      "text": "Don't share needles.\n\nYou can buy 100 pen needles for $9 USD on Amazon right now.",
+      "source": "comment",
+      "postId": "1pncx26",
+      "postTitle": "Journalist reaching out re: college students sharing Ozempic needles"
+    },
+    {
+      "id": "m321",
+      "brand": "Old Navy",
+      "sentiment": "neutral",
+      "context": "brand of jeans purchased",
+      "text": "I guess I also could've tagged this as \"success story\", but what are we doing about clothes?? \n\nI've been on Ozempic for 8 months now, and none of my \"fat\" clothes fit anymore. I literally look soggy ...",
+      "source": "post",
+      "postId": "1pmx0n0",
+      "postTitle": "NOTHING FITS ANYMORE"
+    },
+    {
+      "id": "m323",
+      "brand": "Walmart",
+      "sentiment": "neutral",
+      "context": "place to buy cheap clothes",
+      "text": "I (43F) buy cheap clothes from Walmart/Goodwill/free clothes people give away online and try to wear baggy clothes until they are falling off my body. I don\u2019t work, so a lot of sweat pants with drawst...",
+      "source": "comment",
+      "postId": "1pmx0n0",
+      "postTitle": "NOTHING FITS ANYMORE"
+    },
+    {
+      "id": "m327",
+      "brand": "Old Navy",
+      "sentiment": "neutral",
+      "context": "brand where clothes were purchased",
+      "text": "Well, I just went to Old Navy and bought 2 pairs of jeans (on sale $15 right now) and I ordered 3 pairs of shorts. (I live in FL). Tops i just buy enough to get by and some I can still where. The clot...",
+      "source": "comment",
+      "postId": "1pmx0n0",
+      "postTitle": "NOTHING FITS ANYMORE"
+    },
+    {
+      "id": "m329",
+      "brand": "Fairlife",
+      "sentiment": "neutral",
+      "context": "brand of chocolate milk",
+      "text": "I know some don't so I'm nervous. Wondering if anyone has had a similar experience to this. \n\nI passed some stuff today without a stimulant laxative or enema for the first time all week so that feels ...",
+      "source": "post",
+      "postId": "1pmvl8u",
+      "postTitle": "Did your stomach heal?"
+    },
+    {
+      "id": "m330",
+      "brand": "Metformin",
+      "sentiment": "neutral",
+      "context": "taken alongside Ozempic",
+      "text": "I'm new here. I started Ozempic about 10 weeks ago. I started mostly for my T2 diabetes. My A1c was 7.8 and I weighed 181 at 5'10\" before starting.\n\nThe typical 4 weeks 0.25 and 4 weeks 0.5 routine.I ...",
+      "source": "post",
+      "postId": "1pmtjqt",
+      "postTitle": "My progress"
+    },
+    {
+      "id": "m335",
+      "brand": "Zofran",
+      "sentiment": "positive",
+      "context": "recommended for nausea",
+      "text": "My doc prescribed zofran to have on hand for the nausea side effect. Def recommend",
+      "source": "comment",
+      "postId": "1plsef2",
+      "postTitle": "On the point of quitting"
+    },
+    {
+      "id": "m339",
+      "brand": "MiraLAX",
+      "sentiment": "positive",
+      "context": "recommended for constipation",
+      "text": "So I went in to the ER. They checked my bloodwork, did a urine test and an X-ray. Dr said the bloating I'm still feeling is likely just \"gaseous distension\". \n\nI'm still a little concerned since it wa...",
+      "source": "post",
+      "postId": "1plpy84",
+      "postTitle": "When to worry - constipation- update"
+    },
+    {
+      "id": "m340",
+      "brand": "Metamucil",
+      "sentiment": "positive",
+      "context": "recommended for constipation",
+      "text": "So I went in to the ER. They checked my bloodwork, did a urine test and an X-ray. Dr said the bloating I'm still feeling is likely just \"gaseous distension\". \n\nI'm still a little concerned since it wa...",
+      "source": "post",
+      "postId": "1plpy84",
+      "postTitle": "When to worry - constipation- update"
+    },
+    {
+      "id": "m341",
+      "brand": "Metamucil",
+      "sentiment": "positive",
+      "context": "recommended for constipation",
+      "text": "It's all about maintenance. Tons of water and high fiber diet. Daily stool softener and magnesium. If 48 hours no bm use a laxative.",
+      "source": "comment",
+      "postId": "1plpy84",
+      "postTitle": "When to worry - constipation- update"
+    },
+    {
+      "id": "m342",
+      "brand": "MiraLAX",
+      "sentiment": "positive",
+      "context": "recommended for constipation",
+      "text": "Daily kiwis and MiraLAX fixed me after nothing else worked.",
+      "source": "comment",
+      "postId": "1plpy84",
+      "postTitle": "When to worry - constipation- update"
+    },
+    {
+      "id": "m344",
+      "brand": "Metamucil",
+      "sentiment": "neutral",
+      "context": "experience with capsules",
+      "text": "I take psyllium capsules, but it doesn't make me go every day. If I really want to have a bm that's smooth and easy, I have a cheat day and eat pizza or a burger. That grease works wonders.",
+      "source": "comment",
+      "postId": "1plpy84",
+      "postTitle": "When to worry - constipation- update"
+    },
+    {
+      "id": "m346",
+      "brand": "Restoralax",
+      "sentiment": "positive",
+      "context": "recommended by doctor",
+      "text": "Restor a lax. Daily. Never a problem .. it\u2019s safe!! recommended by my doctor when I went on Ozempic",
+      "source": "comment",
+      "postId": "1plpy84",
+      "postTitle": "When to worry - constipation- update"
+    },
+    {
+      "id": "m347",
+      "brand": "Metamucil",
+      "sentiment": "positive",
+      "context": "recommended for constipation",
+      "text": "Have you tried Metamucil and a ton of water? I had stomach pain so bad from gas and constipation that they thought it was appendicitis and did an MRI with contrast. Turns out I was full of it, literal...",
+      "source": "comment",
+      "postId": "1plpy84",
+      "postTitle": "When to worry - constipation- update"
+    },
+    {
+      "id": "m348",
+      "brand": "Metamucil",
+      "sentiment": "positive",
+      "context": "recommended for constipation",
+      "text": "The level of constipation varies wildly. Some folks can fix it with minor diet tweaks, some have it much worse. We each need to study up on the over the counter options and lifestyle changes because s...",
+      "source": "comment",
+      "postId": "1plpy84",
+      "postTitle": "When to worry - constipation- update"
+    },
+    {
+      "id": "m349",
+      "brand": "Metamucil",
+      "sentiment": "positive",
+      "context": "recommended for constipation",
+      "text": "Those saying fibre are correct. Metamucil or psyllium capsules. You\u2019ll go every day.",
+      "source": "comment",
+      "postId": "1plpy84",
+      "postTitle": "When to worry - constipation- update"
+    },
+    {
+      "id": "m350",
+      "brand": "Metamucil",
+      "sentiment": "positive",
+      "context": "recommended for constipation",
+      "text": "I drink a glass of water that has a tablespoon of Metamucil an hour before bed. Metamucil is safe long term.",
+      "source": "comment",
+      "postId": "1plpy84",
+      "postTitle": "When to worry - constipation- update"
+    },
+    {
+      "id": "m351",
+      "brand": "MiraLAX",
+      "sentiment": "positive",
+      "context": "recommended by doctor",
+      "text": "I had a problem and my doctor OK'd MiraLAX at a double dose if needed for a day or 2.  It's very mild they give it to babies kind of mild but effective.   She said the 2 main keys are keep hydrated an...",
+      "source": "comment",
+      "postId": "1plpy84",
+      "postTitle": "When to worry - constipation- update"
+    },
+    {
+      "id": "m352",
+      "brand": "Metamucil",
+      "sentiment": "neutral",
+      "context": "discussing fiber intake",
+      "text": "Since Oz slows down the digestive system, is there anything that you ate without issues before Ozempic, but could be causing problems now? \n\nBefore Oz, I used a plant medicine that is dissolved in wat...",
+      "source": "comment",
+      "postId": "1plpy84",
+      "postTitle": "When to worry - constipation- update"
+    },
+    {
+      "id": "m353",
+      "brand": "Metamucil",
+      "sentiment": "positive",
+      "context": "recommended for constipation",
+      "text": "I take Metamucil Probiotics + Fiber Gummies every morning and I drink 3-4 40oz Stanley filled with water.  I never have any bloating or constipation.  I\u2019m telling you water is your friend and helps bi...",
+      "source": "comment",
+      "postId": "1plpy84",
+      "postTitle": "When to worry - constipation- update"
+    },
+    {
+      "id": "m354",
+      "brand": "MiraLAX",
+      "sentiment": "positive",
+      "context": "recommended for constipation",
+      "text": "I struggled with bad constipation for the first 6 months on this medication. The longest I went without a BM was 10 days and boy that was uncomfortable. Suppositories didn\u2019t help at all either, neithe...",
+      "source": "comment",
+      "postId": "1plpy84",
+      "postTitle": "When to worry - constipation- update"
+    },
+    {
+      "id": "m355",
+      "brand": "Restoralax",
+      "sentiment": "positive",
+      "context": "recommended for constipation",
+      "text": "I struggled with bad constipation for the first 6 months on this medication. The longest I went without a BM was 10 days and boy that was uncomfortable. Suppositories didn\u2019t help at all either, neithe...",
+      "source": "comment",
+      "postId": "1plpy84",
+      "postTitle": "When to worry - constipation- update"
+    },
+    {
+      "id": "m356",
+      "brand": "Metamucil",
+      "sentiment": "neutral",
+      "context": "discussing constipation",
+      "text": "Not necessarily, I take lots of Metamucil daily and had to stop Ozempic until I cab figure out the constipation with my doc. I can go with stool softeners and laxatives but can't stay on them forever.",
+      "source": "comment",
+      "postId": "1plpy84",
+      "postTitle": "When to worry - constipation- update"
+    },
+    {
+      "id": "m357",
+      "brand": "Costco",
+      "sentiment": "positive",
+      "context": "cheaper option for Ozempic",
+      "text": "Costco has it for $499 if you have a membership.  What dosage are you on?  I take 1mg a week and buy the 8mg pen. It last 2 months so it\u2019s about $250 a month.",
+      "source": "comment",
+      "postId": "1plg82n",
+      "postTitle": "Ozempic cheaper.....how?"
+    },
+    {
+      "id": "m363",
+      "brand": "Fairlife",
+      "sentiment": "neutral",
+      "context": "brand of protein shake",
+      "text": "Been on GLP-1 (Wegovy and then Ozempic) for about a year and a half, been on 2mg for about 2 months now. When I take my dose, I have absolutely no interest in food or water for like, 2 days after. I f...",
+      "source": "post",
+      "postId": "1pl11nb",
+      "postTitle": "Dehydration - advice?"
+    },
+    {
+      "id": "m364",
+      "brand": "Premier protein",
+      "sentiment": "neutral",
+      "context": "brand of protein shake",
+      "text": "Been on GLP-1 (Wegovy and then Ozempic) for about a year and a half, been on 2mg for about 2 months now. When I take my dose, I have absolutely no interest in food or water for like, 2 days after. I f...",
+      "source": "post",
+      "postId": "1pl11nb",
+      "postTitle": "Dehydration - advice?"
+    },
+    {
+      "id": "m365",
+      "brand": "Crystal Light",
+      "sentiment": "neutral",
+      "context": "flavored water enhancement",
+      "text": "Been on GLP-1 (Wegovy and then Ozempic) for about a year and a half, been on 2mg for about 2 months now. When I take my dose, I have absolutely no interest in food or water for like, 2 days after. I f...",
+      "source": "post",
+      "postId": "1pl11nb",
+      "postTitle": "Dehydration - advice?"
+    },
+    {
+      "id": "m368",
+      "brand": "Walmart",
+      "sentiment": "neutral",
+      "context": "retailer selling water packets",
+      "text": "I get the sugar free water packets, there's hundreds of different kinds you can get, everywhere from Walmart to independent grocery stores and markets, to Amazon. Or the liquid ones. I find carbonated...",
+      "source": "comment",
+      "postId": "1pl11nb",
+      "postTitle": "Dehydration - advice?"
+    },
+    {
+      "id": "m369",
+      "brand": "Amazon",
+      "sentiment": "neutral",
+      "context": "retailer selling water packets",
+      "text": "I get the sugar free water packets, there's hundreds of different kinds you can get, everywhere from Walmart to independent grocery stores and markets, to Amazon. Or the liquid ones. I find carbonated...",
+      "source": "comment",
+      "postId": "1pl11nb",
+      "postTitle": "Dehydration - advice?"
+    },
+    {
+      "id": "m370",
+      "brand": "Restoralax",
+      "sentiment": "neutral",
+      "context": "mentioning constipation remedy",
+      "text": "I took my first dose last night and the only side effects were a mild headache, slight stomach discomfort and a little bit of dizziness (yes I ate before taking my shot). I\u2019m super worried about const...",
+      "source": "post",
+      "postId": "1pkshzm",
+      "postTitle": "First dose last night"
+    },
+    {
+      "id": "m373",
+      "brand": "LoseIt",
+      "sentiment": "neutral",
+      "context": "mentioning food tracking app",
+      "text": "This is a general comment for first-time users/starters or people looking for advice \ud83d\ude0a, I hope it helps! (Sometimes I add it too for people looking for specific information that I don't want to type o...",
+      "source": "comment",
+      "postId": "1pkshzm",
+      "postTitle": "First dose last night"
+    },
+    {
+      "id": "m374",
+      "brand": "Fairlife",
+      "sentiment": "neutral",
+      "context": "brand of protein shake",
+      "text": "This is a general comment for first-time users/starters or people looking for advice \ud83d\ude0a, I hope it helps! (Sometimes I add it too for people looking for specific information that I don't want to type o...",
+      "source": "comment",
+      "postId": "1pkshzm",
+      "postTitle": "First dose last night"
+    },
+    {
+      "id": "m375",
+      "brand": "Premier protein",
+      "sentiment": "neutral",
+      "context": "brand of protein shake",
+      "text": "This is a general comment for first-time users/starters or people looking for advice \ud83d\ude0a, I hope it helps! (Sometimes I add it too for people looking for specific information that I don't want to type o...",
+      "source": "comment",
+      "postId": "1pkshzm",
+      "postTitle": "First dose last night"
+    },
+    {
+      "id": "m376",
+      "brand": "Crystal Light",
+      "sentiment": "neutral",
+      "context": "flavored water enhancement",
+      "text": "This is a general comment for first-time users/starters or people looking for advice \ud83d\ude0a, I hope it helps! (Sometimes I add it too for people looking for specific information that I don't want to type o...",
+      "source": "comment",
+      "postId": "1pkshzm",
+      "postTitle": "First dose last night"
+    },
+    {
+      "id": "m378",
+      "brand": "Zofran",
+      "sentiment": "neutral",
+      "context": "anti-nausea medication",
+      "text": "UPDATE: Ended up in the ER with colitis. I\u2019m fine now, but please don\u2019t be like me, actually listen to your body. Never taking it again since I wasn\u2019t able to handle it from the beginning and shouldn\u2019...",
+      "source": "post",
+      "postId": "1pkgi6b",
+      "postTitle": "It\u2019s destroying my quality of life"
+    },
+    {
+      "id": "m380",
+      "brand": "Imodium",
+      "sentiment": "neutral",
+      "context": "anti-diarrheal medication",
+      "text": "UPDATE: Ended up in the ER with colitis. I\u2019m fine now, but please don\u2019t be like me, actually listen to your body. Never taking it again since I wasn\u2019t able to handle it from the beginning and shouldn\u2019...",
+      "source": "post",
+      "postId": "1pkgi6b",
+      "postTitle": "It\u2019s destroying my quality of life"
+    },
+    {
+      "id": "m383",
+      "brand": "Zofran",
+      "sentiment": "neutral",
+      "context": "anti-nausea medication",
+      "text": "UPDATE: Ended up in the ER with colitis. I\u2019m fine now, but please don\u2019t be like me, actually listen to your body. Never taking it again since I wasn\u2019t able to handle it from the beginning and shouldn\u2019...",
+      "source": "post",
+      "postId": "1pkgi6b",
+      "postTitle": "It\u2019s destroying my quality of life"
+    },
+    {
+      "id": "m394",
+      "brand": "Fairlife",
+      "sentiment": "positive",
+      "context": "premade protein shake",
+      "text": "I refuse to drink my calories. If I want to taste apple I eat an apple and also receive the fiber and fill full longer. It is not reconstituted either. Oranges, peaches, ripe pears, mandarins. At leas...",
+      "source": "comment",
+      "postId": "1pk6s8m",
+      "postTitle": "Still addicted to fruit juice"
+    },
+    {
+      "id": "m395",
+      "brand": "Premier protein",
+      "sentiment": "positive",
+      "context": "premade protein shake",
+      "text": "I refuse to drink my calories. If I want to taste apple I eat an apple and also receive the fiber and fill full longer. It is not reconstituted either. Oranges, peaches, ripe pears, mandarins. At leas...",
+      "source": "comment",
+      "postId": "1pk6s8m",
+      "postTitle": "Still addicted to fruit juice"
+    },
+    {
+      "id": "m396",
+      "brand": "Restoralax",
+      "sentiment": "neutral",
+      "context": "tried Restoralax",
+      "text": "I'm coming up on 3 days no pooping and I'm  losing my mind. Getting very bloated and uncomfortable. \n\nI have already tried: prune juice, magnesium citrate, porridge with ground flax, senna lax, restor...",
+      "source": "post",
+      "postId": "1pjv0fa",
+      "postTitle": "When to worry - constipation"
+    },
+    {
+      "id": "m403",
+      "brand": "ChatGPT",
+      "sentiment": "neutral",
+      "context": "used for workout routines",
+      "text": "I started going to the gym to support my Ozempic journey, and for the first time in my life I feel I\u2019ve built real habits around moving, lifting, and eating healthier.\n\nHere\u2019s what I stuck to: I track...",
+      "source": "post",
+      "postId": "1pjbomg",
+      "postTitle": "3 months in. 30 pounds out."
+    },
+    {
+      "id": "m412",
+      "brand": "Costco",
+      "sentiment": "neutral",
+      "context": "mentioned as a place",
+      "text": "I\u2019m 25 male, 265 pounds, 6 foot 4 inches. I was a very unhealthy 285 about a year ago. I got down to 245 but I can\u2019t keep the weight off so I\u2019m back to 265. I work in a restaurant which doesn\u2019t help a...",
+      "source": "post",
+      "postId": "1pir083",
+      "postTitle": "Should I try ozempic? Just looking for quick opinions."
+    },
+    {
+      "id": "m413",
+      "brand": "Walmart",
+      "sentiment": "neutral",
+      "context": "mentioned as potential pharmacy",
+      "text": "I\u2019m 25 male, 265 pounds, 6 foot 4 inches. I was a very unhealthy 285 about a year ago. I got down to 245 but I can\u2019t keep the weight off so I\u2019m back to 265. I work in a restaurant which doesn\u2019t help a...",
+      "source": "post",
+      "postId": "1pir083",
+      "postTitle": "Should I try ozempic? Just looking for quick opinions."
+    },
+    {
+      "id": "m414",
+      "brand": "Walmart",
+      "sentiment": "neutral",
+      "context": "pharmacy option",
+      "text": "Buy them at a local pharmacy or online. Walmart and Amazon have them, as will most local pharmacies. \n\nIf you decide to reuse needles or lances, that's a choice only you can make. Factor in costs usin...",
+      "source": "comment",
+      "postId": "1piq0qb",
+      "postTitle": "56 days"
+    },
+    {
+      "id": "m415",
+      "brand": "Amazon",
+      "sentiment": "neutral",
+      "context": "pharmacy option",
+      "text": "Buy them at a local pharmacy or online. Walmart and Amazon have them, as will most local pharmacies. \n\nIf you decide to reuse needles or lances, that's a choice only you can make. Factor in costs usin...",
+      "source": "comment",
+      "postId": "1piq0qb",
+      "postTitle": "56 days"
+    },
+    {
+      "id": "m418",
+      "brand": "LoseIt",
+      "sentiment": "neutral",
+      "context": "sub mentioned in post",
+      "text": "I've been on Ozempic for a few months now, and while I've seen significant weight loss initially, I've hit a plateau lately. It\u2019s discouraging to see the scale not budging despite my efforts. I'm curi...",
+      "source": "post",
+      "postId": "1pilx6g",
+      "postTitle": "How do you stay motivated during weight loss plateaus on Ozempic?"
+    },
+    {
+      "id": "m419",
+      "brand": "Costco",
+      "sentiment": "neutral",
+      "context": "mentioned as a potential cheaper pharmacy",
+      "text": "Hit the 30kg milestone this week and most notably - I'm finally sub 30 BMI!\n\nMy insurance forced me to go see a dietician for the first time since I started semaglutide, which I figure could help me b...",
+      "source": "post",
+      "postId": "1piatti",
+      "postTitle": "2.5 Years and 30kg later"
+    },
+    {
+      "id": "m420",
+      "brand": "Costco",
+      "sentiment": "neutral",
+      "context": "cheaper pharmacy option mentioned",
+      "text": "**Edit:** *some very useful info in here thank you for all your responses!   I feel that I may end up going up to the higher dose - and hopefully the generics will come in my market quickly - by all a...",
+      "source": "post",
+      "postId": "1pi6hii",
+      "postTitle": "Looking for some advice on how Ozempic is supposed to work for me."
+    },
+    {
+      "id": "m421",
+      "brand": "Costco",
+      "sentiment": "neutral",
+      "context": "lower price for Ozempic",
+      "text": "To start, find a cheaper pharmacy. In case anyone doesn\u2019t know - Costco in Ontario charges $252 per pen. Either size. Don\u2019t go somewhere that charges much more than that. Prices will go down likely wi...",
+      "source": "comment",
+      "postId": "1pi6hii",
+      "postTitle": "Looking for some advice on how Ozempic is supposed to work for me."
+    },
+    {
+      "id": "m425",
+      "brand": "ChatGPT",
+      "sentiment": "neutral",
+      "context": "AI app used for advice",
+      "text": "I thought Grok\u2019s (XAI\u2019s AI app like Chat GPT) response to my query regarding muscle building after after weight loss was helpful:\n\nYou\u2019re already doing the most important things correctly at 77:\n\t\u2022\tHi...",
+      "source": "post",
+      "postId": "1pgz00r",
+      "postTitle": "Grok\u2019s suggestion for actions to enhance a 77 YO male\u2019s muscle building after Ozempic weight loss"
+    },
+    {
+      "id": "m428",
+      "brand": "Fairlife",
+      "sentiment": "neutral",
+      "context": "protein source",
+      "text": "I thought Grok\u2019s (XAI\u2019s AI app like Chat GPT) response to my query regarding muscle building after after weight loss was helpful:\n\nYou\u2019re already doing the most important things correctly at 77:\n\t\u2022\tHi...",
+      "source": "post",
+      "postId": "1pgz00r",
+      "postTitle": "Grok\u2019s suggestion for actions to enhance a 77 YO male\u2019s muscle building after Ozempic weight loss"
+    },
+    {
+      "id": "m440",
+      "brand": "Kaiser",
+      "sentiment": "neutral",
+      "context": "Insurance coverage for Ozempic",
+      "text": "At Kaiser, once you are diagnosed with T2, you are diabetic for life (in their system.). My doctor told me I would always be covered for Oz. I pay $0.",
+      "source": "comment",
+      "postId": "1pgogcs",
+      "postTitle": "CONTINUED RX FOR OZEMPIC AFTER A1C IMPROVES"
+    }
+  ]
+}
