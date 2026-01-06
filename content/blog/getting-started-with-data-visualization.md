@@ -153,6 +153,9 @@ Not the most elegant solution, but it worked:
 
 One discovery: I had to repeatedly prompt Claude with *"Are you sure you didn't miss anything? Do another pass."* to get comprehensive coverage.
 
+The final architecture looked like this:
+![Final Pipeline Architecture](/img/mermaid.png)
+
 ## Key Takeaways
 
 1. **LLMs are powerful but need guardrails** — Silent sampling and lazy keyword matching are real failure modes
