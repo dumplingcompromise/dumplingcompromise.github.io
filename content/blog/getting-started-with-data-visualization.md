@@ -1,102 +1,14 @@
 ---
-title: "Getting Started with Data Visualization"
+title: "Exploring r/Ozempic: A Journey Through LLMs, NER, and the Messy Reality of Text Analysis"
 date: 2026-01-05
-tags: ["data", "visualization", "tutorial"]
+tags: ["data-engineering", "AI", "LLMs", "NER", "text-analysis", "python"]
 charts: true
 chart_data:
-  - id: monthlyGrowthChart
-    type: line
-    data:
-      labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun"]
-      datasets:
-        - label: "Users"
-          data: [1200, 1900, 3000, 5000, 4200, 6100]
-          tension: 0.3
-          fill: false
-  - id: categoryChart
+  - id: brandSentimentChart
     type: bar
-    data:
-      labels: ["Product A", "Product B", "Product C", "Product D"]
-      datasets:
-        - label: "Q1 Sales"
-          data: [12, 19, 8, 15]
-        - label: "Q2 Sales"
-          data: [15, 22, 12, 18]
 ---
 
-This is a sample blog post demonstrating how to embed interactive charts in your articles. The charts are built with [Chart.js](https://www.chartjs.org/) and automatically styled to match the site's dark theme.
-
-## Adding Charts to Posts
-
-To add charts to a blog post, you need to:
-
-1. Set `charts: true` in the front matter
-2. Define your chart data in `chart_data`
-3. Add a canvas element with the matching ID
-
-## Line Chart Example
-
-Line charts are great for showing trends over time. Here's an example showing user growth:
-
-<div class="chart-container">
-    <h3 class="chart-title">Monthly User Growth</h3>
-    <canvas id="monthlyGrowthChart"></canvas>
-    <p class="chart-caption">Simulated user growth data for H1 2026</p>
-</div>
-
-The data shows steady growth with a slight dip in May before recovering in June. This pattern is common in subscription-based products.
-
-## Bar Chart Example
-
-Bar charts work well for comparing categories. Here's a comparison of quarterly sales:
-
-<div class="chart-container">
-    <h3 class="chart-title">Quarterly Sales by Product</h3>
-    <canvas id="categoryChart"></canvas>
-    <p class="chart-caption">Q1 vs Q2 sales comparison across product lines</p>
-</div>
-
-Product B leads in both quarters, while Product C shows the most improvement between Q1 and Q2.
-
-## Creating Your Own Charts
-
-To create a new chart, add a configuration object to the `chart_data` array in your post's front matter:
-
-```yaml
-chart_data:
-  - id: myChart
-    type: bar
-    data:
-      labels: ["A", "B", "C"]
-      datasets:
-        - label: "My Data"
-          data: [10, 20, 30]
-```
-
-Then add the canvas element in your post content:
-
-```html
-<div class="chart-container">
-    <canvas id="myChart"></canvas>
-</div>
-```
-
-## Supported Chart Types
-
-Chart.js supports many chart types out of the box:
-
-- **Line** - trends over time
-- **Bar** - category comparisons
-- **Pie / Doughnut** - proportions
-- **Radar** - multivariate data
-- **Polar Area** - similar to pie with equal angles
-- **Scatter** - correlation between variables
-
-## Interactive Brand Sentiment Analysis
-
-Now let's look at a real-world example using actual data. The chart below shows brand mentions from Reddit discussions about GLP-1 medications, segmented by sentiment (positive, neutral, negative).
-
-**Click any segment** to see the actual comments where that brand was mentioned with that sentiment.
+**Click any segment** in the chart below to see the actual Reddit comments where that brand was mentioned with that sentiment.
 
 <div class="chart-container brand-sentiment-container">
     <h3 class="chart-title">Top 20 Brands by Mention Count</h3>
@@ -134,8 +46,85 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-This interactive visualization demonstrates how to combine Chart.js click handlers with dynamic DOM updates to create explorable data presentations.
+---
 
-## Next Steps
+## The Question
 
-Feel free to explore the chart above by clicking different sentiment segments. The data processing pipeline extracts brand mentions from Reddit posts and comments, classifies sentiment, and aggregates the results for visualization.
+Is Sweetgreen a hidden value stock poised to benefit from GLP-1 medications, changing eating habits, and the "protein everything" era?
+
+To find out, I decided to extract brand mentions (with sentiment) from r/Ozempic posts to understand what products people on GLP-1 medications are actually discussing.
+
+Simple enough, right? Not exactly.
+
+## The Messy Reality of LLM-Powered Data Extraction
+
+My original intention was to demonstrate how LLMs make it possible to explore datasets faster than ever. But I quickly ran into something many practitioners already know: there's a significant gap between getting something that *looks* good and getting something that's actually production-grade.
+
+**The dataset:** Several months of posts (with comments) from r/Ozempic on Reddit.
+
+## Iteration #1: The "Automagic" Approach
+
+My first pipeline was straightforward:
+
+1. Extract Reddit data to JSON with **PRAW** (Python Reddit API Wrapper)
+2. Use Claude CLI to find brands, attach sentiment, output to a second JSON file
+3. Transform results for visualization
+
+Step 1 was smooth. Step 2? Not so much.
+
+Claude decided to do simple keyword matching based on a list of brands it generated on the fly. Worse, it silently sampled the data instead of evaluating every post. That wasn't going to scale if I wanted repeatable results.
+
+## Iteration #2: Batch to Claude API
+
+Next: send batches to the Claude API for brand + sentiment extraction.
+
+The problem? 1,000 posts with 10+ comments each is a *lot* of tokens. Processing in small batches (10 posts each) meant repeating prompt instructions ~100 times. By batch 8, I was already at **$0.20** in API costs. Shut it down.
+
+## Iteration #3: Local Ollama Model
+
+To avoid API costs entirely, I switched to running **Llama 3.1 8B** locally via Ollama. On an Intel Mac, batch 1 of 50 took so long I thought the process had frozen. Local models weren't going to work for this dataset size.
+
+## Iteration #4: Free OpenRouter Models
+
+With an assist from a friend, I discovered **OpenRouter**, which offers free tiers for models like Gemma and Mistral. This solved my cost problem but surfaced a new one...
+
+### The Chipotle Paradox
+
+When I removed brand name examples from the prompt (to avoid biasing the model), the LLM missed obvious mentions like "Chipotle."
+
+When I added brand examples back, Chipotle became suspiciously overrepresented—explicitly-stated brands were found, but others were overlooked.
+
+What I needed was a way to create a comprehensive brand dictionary without biasing results. But how? Vanilla spaCy models aren't robust enough for this task, and there's no comprehensive database of "every brand, product, and company."
+
+## Iteration #5: The Final Pipeline
+
+Not the most elegant solution, but it worked:
+
+**Step 1: Compress the data**
+- Strip metadata (IDs, scores, URLs)
+- Filter to high-quality content (upvoted comments only)
+- Reduce from **379K tokens to 139K tokens**
+
+**Step 2: One-time powerful LLM pass**
+- Pass compressed text through Claude (via web interface)
+- Extract ALL brand names found
+- Output: `brands_reference.txt`
+
+**Step 3: Use reference list in batch processing**
+- Feed the brand list back into the extraction prompt
+- Prompt says: "Look for these known brands, AND any others you find"
+
+One discovery: I had to repeatedly prompt Claude with *"Are you sure you didn't miss anything? Do another pass."* to get comprehensive coverage.
+
+## Key Takeaways
+
+1. **LLMs are powerful but need guardrails** — Silent sampling and lazy keyword matching are real failure modes
+2. **Token economics matter** — Batch processing at scale requires careful cost-benefit analysis
+3. **Hybrid approaches win** — Using a powerful model for dictionary generation + cheaper models for batch extraction
+4. **Perfect is the enemy of good** — Even with optimizations, there's variance between models. At some point, "good enough" is the right call.
+
+## The Answer
+
+No matter how I sliced the data... ain't nobody talking about Sweetgreen.
+
+But the journey taught me more about production-grade NLP pipelines than any tutorial could.
