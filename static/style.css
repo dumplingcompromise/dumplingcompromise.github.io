@@ -851,3 +851,185 @@ ul {
         min-height: 400px;
     }
 }
+
+/* ==========================================
+   Dashboard Components
+   ========================================== */
+
+/* KPI Stats Row */
+.dashboard-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.stat-card {
+    background-color: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(168, 168, 168, 0.15);
+    border-radius: 8px;
+    padding: 1.25rem 1rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.stat-card:hover {
+    border-color: var(--accent);
+    background-color: rgba(252, 205, 3, 0.05);
+    transform: translateY(-2px);
+}
+
+.stat-value {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    line-height: 1.2;
+    margin-bottom: 0.25rem;
+}
+
+.stat-label {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.stat-card.stat-positive .stat-value {
+    color: #2ecc71;
+}
+
+.stat-card.stat-negative .stat-value {
+    color: #e74c3c;
+}
+
+/* Dashboard Row (Doughnut + Filters) */
+.dashboard-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.sentiment-doughnut-container {
+    background-color: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(168, 168, 168, 0.15);
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
+.sentiment-doughnut-container canvas {
+    max-height: 220px;
+}
+
+.filter-controls {
+    background-color: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(168, 168, 168, 0.15);
+    border-radius: 8px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-controls .chart-title {
+    margin-bottom: 1rem;
+}
+
+.filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.filter-btn {
+    padding: 0.5rem 1rem;
+    border: 1px solid rgba(168, 168, 168, 0.3);
+    border-radius: 4px;
+    background-color: transparent;
+    color: var(--text-secondary);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.filter-btn:hover {
+    border-color: var(--text-primary);
+    color: var(--text-primary);
+}
+
+.filter-btn.active {
+    background-color: rgba(168, 168, 168, 0.2);
+    border-color: var(--text-primary);
+    color: var(--text-primary);
+}
+
+.filter-btn.filter-positive.active {
+    background-color: rgba(46, 204, 113, 0.2);
+    border-color: #2ecc71;
+    color: #2ecc71;
+}
+
+.filter-btn.filter-neutral.active {
+    background-color: rgba(52, 152, 219, 0.2);
+    border-color: #3498db;
+    color: #3498db;
+}
+
+.filter-btn.filter-negative.active {
+    background-color: rgba(231, 76, 60, 0.2);
+    border-color: #e74c3c;
+    color: #e74c3c;
+}
+
+.filter-hint {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    font-style: italic;
+    margin-top: auto;
+}
+
+/* Responsive Dashboard */
+@media (max-width: 768px) {
+    .dashboard-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .dashboard-row {
+        grid-template-columns: 1fr;
+    }
+
+    .stat-value {
+        font-size: 1.5rem;
+    }
+
+    .stat-label {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .dashboard-stats {
+        grid-template-columns: 1fr 1fr;
+        gap: 0.75rem;
+    }
+
+    .stat-card {
+        padding: 1rem 0.75rem;
+    }
+
+    .stat-value {
+        font-size: 1.25rem;
+    }
+
+    .filter-buttons {
+        flex-direction: column;
+    }
+
+    .filter-btn {
+        width: 100%;
+        text-align: center;
+    }
+}

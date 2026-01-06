@@ -8,11 +8,48 @@ chart_data:
     type: bar
 ---
 
-**Click any segment** in the chart below to see the actual Reddit comments where that brand was mentioned with that sentiment.
+<!-- Dashboard Stats -->
+<div class="dashboard-stats" id="dashboardStats">
+    <div class="stat-card">
+        <span class="stat-value" data-target="0" id="statMentions">0</span>
+        <span class="stat-label">Total Mentions</span>
+    </div>
+    <div class="stat-card">
+        <span class="stat-value" data-target="0" id="statBrands">0</span>
+        <span class="stat-label">Brands Analyzed</span>
+    </div>
+    <div class="stat-card stat-positive">
+        <span class="stat-value" data-target="0" id="statPositive">0%</span>
+        <span class="stat-label">Positive</span>
+    </div>
+    <div class="stat-card stat-negative">
+        <span class="stat-value" data-target="0" id="statNegative">0%</span>
+        <span class="stat-label">Negative</span>
+    </div>
+</div>
 
+<!-- Sentiment Overview & Filters -->
+<div class="dashboard-row">
+    <div class="sentiment-doughnut-container">
+        <h4 class="chart-title">Sentiment Distribution</h4>
+        <canvas id="sentimentDoughnut"></canvas>
+    </div>
+    <div class="filter-controls">
+        <h4 class="chart-title">Filter by Sentiment</h4>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-sentiment="all">All</button>
+            <button class="filter-btn filter-positive active" data-sentiment="positive">Positive</button>
+            <button class="filter-btn filter-neutral active" data-sentiment="neutral">Neutral</button>
+            <button class="filter-btn filter-negative active" data-sentiment="negative">Negative</button>
+        </div>
+        <p class="filter-hint">Toggle sentiments to show/hide in the chart below</p>
+    </div>
+</div>
+
+<!-- Main Chart -->
 <div class="chart-container brand-sentiment-container">
     <h3 class="chart-title">Top 20 Brands by Mention Count</h3>
-    <p class="chart-caption">Data from Reddit r/Ozempic discussions</p>
+    <p class="chart-caption">Click any segment to see the actual Reddit comments</p>
     <div class="chart-wrapper" style="height: 600px;">
         <canvas id="brandSentimentChart"></canvas>
     </div>
