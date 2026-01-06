@@ -1,7 +1,11 @@
 ---
 title: "Exploring r/Ozempic: A Journey Through LLMs, NER, and the Messy Reality of Text Analysis"
 date: 2026-01-05
+description: "A deep dive into building a production-grade NLP pipeline to extract brand sentiment from Reddit discussions. Lessons learned from iterating through Claude API, Ollama, and OpenRouter."
+image: "/img/mermaid.png"
 tags: ["data-engineering", "AI", "LLMs", "NER", "text-analysis", "python"]
+keywords: ["LLM", "NER", "named entity recognition", "sentiment analysis", "Reddit API", "Claude API", "OpenRouter", "data engineering", "NLP pipeline", "Ozempic", "GLP-1"]
+author: "Nikita Goldovsky"
 charts: true
 chart_data:
   - id: brandSentimentChart
